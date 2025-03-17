@@ -10,26 +10,17 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Browser,
 		C3.Plugins.Button,
 		C3.Plugins.System.Cnds.OnLayoutStart,
-		C3.ScriptsInEvents.EventSheet1_Event1_Act1,
-		C3.ScriptsInEvents.Functions_Event1,
-		C3.ScriptsInEvents.Functions_Event2,
-		C3.ScriptsInEvents.Functions_Event3,
-		C3.ScriptsInEvents.Functions_Event4,
-		C3.ScriptsInEvents.Functions_Event5,
-		C3.ScriptsInEvents.Functions_Event6,
 		C3.Plugins.AJAX.Acts.RequestFile,
+		C3.ScriptsInEvents.Main_Event1_Act2,
 		C3.Plugins.AJAX.Cnds.OnComplete,
 		C3.Plugins.Json.Acts.Parse,
 		C3.Plugins.AJAX.Exps.LastData,
 		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.Browser.Acts.ConsoleLog,
 		C3.Plugins.Json.Exps.ToBeautifiedString,
-		C3.ScriptsInEvents.Main_Event2_Act8,
-		C3.Plugins.Mouse.Cnds.OnClick,
-		C3.ScriptsInEvents.Main_Event3_Act1,
 		C3.Plugins.Button.Cnds.OnClicked,
-		C3.ScriptsInEvents.Main_Event4_Act1,
-		C3.ScriptsInEvents.Main_Event5_Act1
+		C3.ScriptsInEvents.Main_Event3_Act1,
+		C3.ScriptsInEvents.Main_Event4_Act1
 	];
 };
 self.C3_JsPropNameTable = [
