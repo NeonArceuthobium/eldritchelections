@@ -2,6 +2,9 @@
 // 📝 Unified Dialogue System for Construct 3
 // ========================
 
+
+window.isChoiceActive = false;
+
 // ------------------------------------------------------------------------------------------------
 // 1) Listen for runtimecreated & store it in window.c3Runtime
 // ------------------------------------------------------------------------------------------------
@@ -42,14 +45,20 @@ window.isAdvancing = false;      // Optional: helps block multiple rapid clicks
 // ------------------------------------------------------------------------------------------------
 // 4) Click Handler: skip or advance
 // ------------------------------------------------------------------------------------------------
-window.onDialogueClick = function() {
+window.onDialogueClick = function () {
+    if (window.isChoiceActive) {
+        console.log("🛑 Choices are active — click ignored.");
+        return;
+    }
+
     console.log("🖱️ Click detected...");
     if (window.isTyping) {
-        window.skipTypewriter(); // If text is typing, skip
+        window.skipTypewriter();
     } else {
-        window.advanceDialogue(); // Otherwise advance
+        window.advanceDialogue();
     }
 };
+
 
 // Attach this click only once
 if (!window.isClickListenerAdded) {
@@ -312,27 +321,43 @@ window.nextDialogueIndex = function() {
 // 11) SHOW CHOICES (2-choice default example)
 // ------------------------------------------------------------------------------------------------
 window.showChoices = function(optionsArray) {
+
+    window.isChoiceActive = true;
+
     let rt = getRuntime();
     if (!rt) return;
 
     rt.globalVars.CurrentOptions = optionsArray;
     console.log("📌 Showing choices:", optionsArray);
 
+    let choicetext1 = rt.objects.RedChoiceText.getFirstInstance();
+    let choicetext2 = rt.objects.BlueChoiceText.getFirstInstance();
     let button1 = rt.objects.ChoiceButton1.getFirstInstance();
     let button2 = rt.objects.ChoiceButton2.getFirstInstance();
+
     if (!button1 || !button2) {
         console.error("❌ ChoiceButton1 or ChoiceButton2 not found.");
         return;
     }
 
-    button1.text = optionsArray[0].text;
-    button2.text = optionsArray[1].text;
+    // Update text
+    choicetext1.text = optionsArray[0].text;
+    choicetext2.text = optionsArray[1].text;
+
+    // Show elements
+    choicetext1.isVisible = true;
+    choicetext2.isVisible = true;
     button1.isVisible = true;
     button2.isVisible = true;
 
-    button1.onclick = () => window.selectChoice(0);
-    button2.onclick = () => window.selectChoice(1);
+    // Store choices on the button instances themselves
+    button1.choiceIndex = 0;
+    button2.choiceIndex = 1;
+
+    window.attachChoiceListeners();
+
 };
+
 
 // ------------------------------------------------------------------------------------------------
 // 12) SELECT CHOICE
@@ -350,15 +375,18 @@ window.selectChoice = function(choiceIndex) {
 
     let button1 = rt.objects.ChoiceButton1.getFirstInstance();
     let button2 = rt.objects.ChoiceButton2.getFirstInstance();
+	let choicetext1 = rt.objects.RedChoiceText.getFirstInstance();
+	let choicetext2 = rt.objects.BlueChoiceText.getFirstInstance();
+	if (choicetext1) choicetext1.isVisible = false;
+    if (choicetext2) choicetext2.isVisible = false;
     if (button1) button1.isVisible = false;
     if (button2) button2.isVisible = false;
 
     rt.globalVars.CurrentDialogue = choice.route;
     rt.globalVars.CurrentIndex = "1";
-
+    window.isChoiceActive = false;
     window.showDialogue();
 };
-
 // ------------------------------------------------------------------------------------------------
 // 13) HIDE CHOICE BUTTONS (optional helper)
 // ------------------------------------------------------------------------------------------------
@@ -368,8 +396,51 @@ window.hideChoiceButtons = function() {
 
     let button1 = rt.objects.ChoiceButton1.getFirstInstance();
     let button2 = rt.objects.ChoiceButton2.getFirstInstance();
+	let choicetext1 = rt.objects.RedChoiceText.getFirstInstance();
+	let choicetext2 = rt.objects.BlueChoiceText.getFirstInstance();
+	if (choicetext1) choicetext1.isVisible = false;
+    if (choicetext2) choicetext2.isVisible = false;
     if (button1) button1.isVisible = false;
     if (button2) button2.isVisible = false;
+};
+
+// ------------------------------------------------------------------------------------------------
+// 14) ADD SPRITE HITBOX CLICK HANDLERS
+// ------------------------------------------------------------------------------------------------
+window.attachChoiceListeners = function() {
+    let rt = getRuntime();
+    if (!rt) return;
+
+    let button1 = rt.objects.ChoiceButton1.getFirstInstance();
+    let button2 = rt.objects.ChoiceButton2.getFirstInstance();
+
+    if (!button1 || !button2) {
+        console.error("❌ Cannot attach listeners — choice buttons not found.");
+        return;
+    }
+
+    // Remove previous listeners to avoid stacking (optional, for safety)
+    if (button1.domElement) button1.domElement.removeEventListener("click", button1._choiceClick);
+    if (button2.domElement) button2.domElement.removeEventListener("click", button2._choiceClick);
+
+    // Define handlers
+    button1._choiceClick = () => window.selectChoice(button1.choiceIndex);
+    button2._choiceClick = () => window.selectChoice(button2.choiceIndex);
+
+    // Attach listeners using Construct's DOM wrappers (assumes you're using the DOM plugin)
+    if (button1.instVars && button1.instVars.__dom && button1.instVars.__dom.element) {
+        button1.instVars.__dom.element.addEventListener("click", button1._choiceClick);
+    } else if (button1.domElement) {
+        button1.domElement.addEventListener("click", button1._choiceClick);
+    }
+
+    if (button2.instVars && button2.instVars.__dom && button2.instVars.__dom.element) {
+        button2.instVars.__dom.element.addEventListener("click", button2._choiceClick);
+    } else if (button2.domElement) {
+        button2.domElement.addEventListener("click", button2._choiceClick);
+    }
+
+    console.log("🖲️ Choice listeners attached to sprite hitboxes.");
 };
 
 
@@ -386,12 +457,12 @@ const scriptsInEvents = {
 
 	async Main_Event3_Act1(runtime, localVars)
 	{
-		window.selectChoice(0)
+		window.selectChoice(0);
 	},
 
 	async Main_Event4_Act1(runtime, localVars)
 	{
-		window.selectChoice(1)
+		window.selectChoice(1);
 	}
 
 };

@@ -8,7 +8,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.AJAX,
 		C3.Plugins.Json,
 		C3.Plugins.Browser,
-		C3.Plugins.Button,
+		C3.Behaviors.Pin,
 		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Plugins.AJAX.Acts.RequestFile,
 		C3.ScriptsInEvents.Main_Event1_Act2,
@@ -18,7 +18,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.Browser.Acts.ConsoleLog,
 		C3.Plugins.Json.Exps.ToBeautifiedString,
-		C3.Plugins.Button.Cnds.OnClicked,
+		C3.Plugins.Mouse.Cnds.OnObjectClicked,
 		C3.ScriptsInEvents.Main_Event3_Act1,
 		C3.ScriptsInEvents.Main_Event4_Act1
 	];
@@ -36,6 +36,9 @@ self.C3_JsPropNameTable = [
 	{DialogueText: 0},
 	{ChoiceButton1: 0},
 	{ChoiceButton2: 0},
+	{Pin: 0},
+	{RedChoiceText: 0},
+	{BlueChoiceText: 0},
 	{CurrentDialogue: 0},
 	{CurrentDialogueIndex: 0}
 ];
@@ -51,6 +54,8 @@ self.InstanceType = {
 	DialogueJSONObject: class extends self.IJSONInstance {},
 	Browser: class extends self.IInstance {},
 	DialogueText: class extends self.ITextInstance {},
-	ChoiceButton1: class extends self.IButtonInstance {},
-	ChoiceButton2: class extends self.IButtonInstance {}
+	ChoiceButton1: class extends self.ISpriteInstance {},
+	ChoiceButton2: class extends self.ISpriteInstance {},
+	RedChoiceText: class extends self.ITextInstance {},
+	BlueChoiceText: class extends self.ITextInstance {}
 }
