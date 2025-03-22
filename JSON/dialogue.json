@@ -1,6 +1,6 @@
 {
   "intro": {
-    "bgm": "CloveTheme.mp3",
+    "bgm": "rain",
     "background": "clove_background.jpg",
     "1": {
       "speaker": "Narrator",
@@ -57,7 +57,7 @@
   },
 
   "A1": {
-  "bgm": "CloveTheme.mp3",
+  "bgm": "Vengabus",
   "background": "clove_background.jpg",
   "1": {
     "speaker": "Narrator",
@@ -424,7 +424,7 @@
   },
   "7": {
     "speaker": "Narrator",
-    "text": "You open your mouth and let the people here what you truly have to say."
+    "text": "You open your mouth and let the people hear what you truly have to say."
   },
   "8": {
     "speaker": "Narrator",
@@ -564,12 +564,6 @@
   ]
   }
 },
-
-
-
-
-
-
 
 "B1": {
   "bgm": "TaxTheme.mp3",
@@ -755,17 +749,6 @@
   ]
   }
 },
-
-
-
-
-
-
-
-
-
-
-
 
 "B2B": {
   "bgm": "TaxTheme.mp3",
@@ -1148,25 +1131,6 @@
 },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 "B9B": {
   "bgm": "TaxTheme.mp3",
   "background": "tax_background.jpg",
@@ -1226,50 +1190,46 @@
 
   "15": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "With King's financial backing you win the election no problem. "
   },
   "16": {
     "speaker": "Narrator",
-    "text": ""
+    "text": "Maggie and you have a falling out however."
   },
   "17": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "She can't understand why you would turn your back on your campaign promises and you're not allowed to tell her it was for her own good."
   },
   "18": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "She runs a campaign against you when it comes time for re-election. "
   },
   "19": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "She evicerates you in the debates and the crowd sees what type of person you really are. "
   },
   "20": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "Unfortunately Maggie suffers an accident as the polls start to open."
   },
   "21": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "You read about her obituary in the newspaper, no one has any answers to what happened."
   },
   "22": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "Running unopposed you win re-election, but the difficulties Gumtham City faces continue to go unaddressed. "
   },
   "23": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
-  },
-  "24": {
-    "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "Why'd you even run to begin with?"
   },
   "F": {
     "speaker": "Narrator",
     "text": "Which Interpreter will you choose?",
     "options": [
-    { "route": "B8B", "text": "Run out of your office" },
-    { "route": "B9B", "text": "Wait, What was option one?" }
+    { "route": "A1", "text": "War on Clove" },
+    { "route": "B1", "text": "Tax the Wealthy" }
   ]
   }
 },
@@ -1279,52 +1239,211 @@
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You have  chosen to GTFO"
+    "text": "You place your campaign planning on hold temporarily."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "Let's face it, you're an extra dimensional being who's regular "
+    "text": "If someone's going to attempt to kill you in Gumtham City there's really only one way to make sure they don't try again. "
   },
   "3": {
     "speaker": "Narrator",
-    "text": "speaking voice leads to madness in the most fortunate of listeners."
+    "text": "You start searching, trying to figure out who King is. "
   },
   "4": {
     "speaker": "Narrator",
-    "text": " If you're going to communicate effectively you need to pick your interpreter carefully."
+    "text": " It takes a long time but eventually you receive an invitation. "
   },
   "5": {
     "speaker": "Narrator",
-    "text": "Someone who knows sign language, but can also bridge the gap of translation in a charming "
+    "text": "It's to the penthouse suite of a local hotel. "
   },
   "6": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "King knows you've been asking about him and wants to meet to discuss terms."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "King is a bottle of mouthwash, wearing a suit and a crown."
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "He carries himself with a stable confidence that tells you he already knows what choice you're going to make."
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "He wants you to drop out, and in return he won't harm you or Maggie. "
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "He turns around to stare at the city, "
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "HIS city, while you weigh your options."
   },
   "F": {
     "speaker": "Narrator",
     "text": "Which Interpreter will you choose?",
     "options": [
-    { "route": "B8B", "text": "Run out of your office" },
-    { "route": "B9B", "text": "Wait, What was option one?" }
+    { "route": "B11B", "text": "Reluctantly accept" },
+    { "route": "B12B", "text": "Whip out the Nine" }
   ]
   }
 },
 
+"B11B": {
+  "bgm": "TaxTheme.mp3",
+  "background": "tax_background.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "You consider shooting King where he stands. "
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "The silence in the room growing louder. "
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "You can't do it. "
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": " You decided to run in order to fix the corruption in this city. "
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "If you claimed power in the same way as King has you wouldn't be any different. "
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "You accept King's terms and announce the end of your campaign the next morning. "
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "Maggie refuses to talk to you. Unable to explain yourself you return the same solitude you started in. "
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "Denton wins and his policy enables the local Mines to start hiring Child Labor. "
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "You watch from the sidelines as Maggie struggles with her Grassroot campaigns and activism in a desperate attempt to create something resembling justice. "
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "Eventually it hurts to watch and you cut yourself off from the outside world all together. What's the point of even trying anymore?"
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "The city grows more drab, and hopeless. And you feel your soul grow to reflect that. "
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "The city grows more drab, and hopeless. And you feel your soul grow to reflect that. "
+  },
+  "F": {
+    "speaker": "Narrator",
+    "text": "Which Interpreter will you choose?",
+    "options": [
+    { "route": "A1", "text": "War on Clove" },
+    { "route": "B1", "text": "Tax the Wealthy" }
+  ]
+  }
+},
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+"B12B": {
+  "bgm": "TaxTheme.mp3",
+  "background": "tax_background.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "The offer is a tempting one. "
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "Freeing you from the burdens of your current struggle with no punishment for having attempted it in the first place. "
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "People saw you come into the hotel, but you don't care. Sometimes doing the right thing means doing the hard thing. "
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": " King's proof of this enough.  "
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "It's to the penthouse suite of a local hotel. "
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "You put one in his back hitting him centermass. "
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "He crumples over in pain letting out a low groan. "
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "While he's reaching for his own piece you put another in his head. "
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "The King is dead. "
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "Long live the king."
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "Without the funding King was offering Denton's campaign falls apart. "
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "You win with little difficulty and are free to start putting the policies in place that will help the citizens of Gumtham flourish. "
+  },
+  "13": {
+    "speaker": "Narrator",
+    "text": "Still, it becomes harder to look at yourself in the mirror, and Maggie grows distant."
+  },
+  "14": {
+    "speaker": "Narrator",
+    "text": " No matter what she says you know she can see the blood on your hands."
+  },
+  "15": {
+    "speaker": "Narrator",
+    "text": "The actions you took to secure your victory.  "
+  },
+  "16": {
+    "speaker": "Narrator",
+    "text": "Despite being the Hero she believed in you've proven you're really just more of the same deep down. "
+  },
+  "17": {
+    "speaker": "Narrator",
+    "text": "Sure prosperity may reign for a few years. "
+  },
+  "18": {
+    "speaker": "Narrator",
+    "text": "But it's really only a matter of time before the streets know the truth again."
+  },
+  "19": {
+    "speaker": "Narrator",
+    "text": "The King is dead. "
+  },
+  "20": {
+    "speaker": "Narrator",
+    "text": "Long live the King."
+  },
+  "F": {
+    "speaker": "Narrator",
+    "text": "Which Interpreter will you choose?",
+    "options": [
+    { "route": "B11B", "text": "Reluctantly accept" },
+    { "route": "B12B", "text": "Whip out the Nine" }
+  ]
+  }
+},
 
 "B2C": {
   "bgm": "TaxTheme.mp3",

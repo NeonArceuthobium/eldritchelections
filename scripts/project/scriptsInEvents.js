@@ -2,7 +2,6 @@
 // 📝 Unified Dialogue System for Construct 3
 // ========================
 
-
 window.isChoiceActive = false;
 
 // ------------------------------------------------------------------------------------------------
@@ -50,7 +49,6 @@ window.onDialogueClick = function () {
         console.log("🛑 Choices are active — click ignored.");
         return;
     }
-
     console.log("🖱️ Click detected...");
     if (window.isTyping) {
         window.skipTypewriter();
@@ -59,8 +57,6 @@ window.onDialogueClick = function () {
     }
 };
 
-
-// Attach this click only once
 if (!window.isClickListenerAdded) {
     document.addEventListener("click", window.onDialogueClick);
     window.isClickListenerAdded = true;
@@ -72,15 +68,13 @@ if (!window.isClickListenerAdded) {
 // ------------------------------------------------------------------------------------------------
 window.startBlinking = function() {
     let rt = getRuntime();
-    if (!rt) return; // stops if no runtime yet
-
+    if (!rt) return;
     let textbox = rt.objects.ctc_retro_textbox_.getFirstInstance();
     if (!textbox) {
         console.error("❌ Blinking textbox object not found: ctc_retro_textbox_");
         return;
     }
-    window.stopBlinking(); // clear old intervals
-
+    window.stopBlinking();
     window.blinkingInterval = setInterval(() => {
         textbox.isVisible = !textbox.isVisible;
     }, 500);
@@ -90,10 +84,8 @@ window.startBlinking = function() {
 window.stopBlinking = function() {
     let rt = getRuntime();
     if (!rt) return;
-
     let textbox = rt.objects.ctc_retro_textbox_.getFirstInstance();
     if (!textbox) return;
-
     if (window.blinkingInterval) {
         clearInterval(window.blinkingInterval);
         window.blinkingInterval = null;
@@ -108,17 +100,13 @@ window.stopBlinking = function() {
 window.typewriterEffect = function(textObject, fullText, speed = 50) {
     window.isTyping = true;
     textObject.text = "";
-
-    window.stopBlinking(); // no blinking while typing
-
+    window.stopBlinking();
     if (window.typingInterval) {
         clearTimeout(window.typingInterval);
     }
-
     let index = 0;
     function typeNextChar() {
         if (!window.isTyping) {
-            // If skipping canceled the typing
             clearTimeout(window.typingInterval);
             return;
         }
@@ -127,13 +115,10 @@ window.typewriterEffect = function(textObject, fullText, speed = 50) {
             index++;
             window.typingInterval = setTimeout(typeNextChar, speed);
         } else {
-            // Done typing
             window.isTyping = false;
-            window.startBlinking(); // arrow starts blinking
+            window.startBlinking();
         }
     }
-
-    // Start
     window.typingInterval = setTimeout(typeNextChar, speed);
 };
 
@@ -143,17 +128,13 @@ window.typewriterEffect = function(textObject, fullText, speed = 50) {
 window.showDialogue = function() {
     let rt = getRuntime();
     if (!rt) return;
-
-    // If CurrentIndex is "0" or undefined, default to "1"
     if (!rt.globalVars.CurrentIndex || rt.globalVars.CurrentIndex === "0") {
         rt.globalVars.CurrentIndex = "1";
     }
-
     if (window.isTyping) {
         console.warn("⏳ Already typing, skipping showDialogue() call.");
         return;
     }
-
     let jsonObj = rt.objects.DialogueJSONObject.getFirstInstance();
     if (!jsonObj) {
         console.error("❌ DialogueJSONObject not found.");
@@ -164,13 +145,11 @@ window.showDialogue = function() {
         console.error("❌ JSON data is missing or undefined.");
         return;
     }
-
     let section = jsonData[rt.globalVars.CurrentDialogue];
     if (!section) {
         console.error("❌ Section not found for:", rt.globalVars.CurrentDialogue);
         return;
     }
-
     let indexKey = String(rt.globalVars.CurrentIndex);
     let entry = section[indexKey];
     console.log(`🔎 Fetching [${rt.globalVars.CurrentDialogue}] entry [${indexKey}]`);
@@ -179,24 +158,16 @@ window.showDialogue = function() {
         return;
     }
     console.log("🎭 Entry found:", entry);
-
-    window.stopBlinking(); // ensure arrow is off
-
+    window.stopBlinking();
     let speakerTextObj = rt.objects.SpeakerText.getFirstInstance();
     let dialogueTextObj = rt.objects.DialogueText.getFirstInstance();
     if (!speakerTextObj || !dialogueTextObj) {
         console.error("❌ SpeakerText or DialogueText object not found.");
         return;
     }
-
-    // Set speaker name
     speakerTextObj.text = entry.speaker || "";
-
-    // Typewriter effect
     window.typewriterEffect(dialogueTextObj, entry.text, 50);
     console.log("✅ Typewriter started for:", speakerTextObj.text, entry.text);
-
-    // If branching
     if (entry.options) {
         window.showChoices(entry.options);
     }
@@ -207,28 +178,21 @@ window.showDialogue = function() {
 // ------------------------------------------------------------------------------------------------
 window.skipTypewriter = function() {
     if (!window.isTyping) return;
-
     let rt = getRuntime();
     if (!rt) return;
-
     let dialogueTextObj = rt.objects.DialogueText.getFirstInstance();
     if (!dialogueTextObj) {
         console.error("❌ DialogueText object not found.");
         return;
     }
-
     let jsonObj = rt.objects.DialogueJSONObject.getFirstInstance();
     let jsonData = jsonObj.getJsonDataCopy();
     let section = jsonData[rt.globalVars.CurrentDialogue];
     let entry = section[String(rt.globalVars.CurrentIndex)];
-
     console.log("⏩ Skipping typewriter, showing full text instantly.");
-
     window.isTyping = false;
     clearTimeout(window.typingInterval);
-
     dialogueTextObj.text = entry.text;
-
     window.stopBlinking();
     window.startBlinking();
 };
@@ -241,29 +205,23 @@ window.advanceDialogue = function() {
         window.skipTypewriter();
         return;
     }
-
     if (window.isAdvancing) {
         console.log("🚫 Already advancing, ignoring extra clicks.");
         return;
     }
     window.isAdvancing = true;
-
     window.stopBlinking();
-
     let nextKey = window.nextDialogueIndex();
     if (!nextKey) {
         console.log("🛑 No more dialogue, stopping here.");
         window.isAdvancing = false;
         return;
     }
-
     let rt = getRuntime();
     if (!rt) return;
-
     console.log("➡️ Advancing to next index:", nextKey);
     rt.globalVars.CurrentIndex = nextKey;
     window.showDialogue();
-
     setTimeout(() => {
         window.isAdvancing = false;
     }, 200);
@@ -275,7 +233,6 @@ window.advanceDialogue = function() {
 window.nextDialogueIndex = function() {
     let rt = getRuntime();
     if (!rt) return "";
-
     let jsonObj = rt.objects.DialogueJSONObject.getFirstInstance();
     if (!jsonObj) {
         console.error("❌ DialogueJSONObject not found.");
@@ -286,14 +243,11 @@ window.nextDialogueIndex = function() {
         console.error("❌ JSON data is missing or undefined.");
         return "";
     }
-
     let section = jsonData[rt.globalVars.CurrentDialogue];
     if (!section) {
         console.error("❌ Section not found:", rt.globalVars.CurrentDialogue);
         return "";
     }
-
-    // Distinguish numeric vs letter keys
     let numericKeys = [];
     let letterKeys = [];
     for (let key of Object.keys(section)) {
@@ -301,16 +255,12 @@ window.nextDialogueIndex = function() {
         if (!isNaN(key)) numericKeys.push(Number(key));
         else letterKeys.push(key);
     }
-
     numericKeys.sort((a, b) => a - b);
     letterKeys.sort();
-
     let sortedKeys = numericKeys.map(String).concat(letterKeys);
     console.log("All sorted keys:", sortedKeys);
-
     let currentKey = String(rt.globalVars.CurrentIndex);
     let currentPos = sortedKeys.indexOf(currentKey);
-
     if (currentPos === -1 || currentPos + 1 >= sortedKeys.length) {
         return "";
     }
@@ -321,43 +271,29 @@ window.nextDialogueIndex = function() {
 // 11) SHOW CHOICES (2-choice default example)
 // ------------------------------------------------------------------------------------------------
 window.showChoices = function(optionsArray) {
-
     window.isChoiceActive = true;
-
     let rt = getRuntime();
     if (!rt) return;
-
     rt.globalVars.CurrentOptions = optionsArray;
     console.log("📌 Showing choices:", optionsArray);
-
     let choicetext1 = rt.objects.RedChoiceText.getFirstInstance();
     let choicetext2 = rt.objects.BlueChoiceText.getFirstInstance();
     let button1 = rt.objects.ChoiceButton1.getFirstInstance();
     let button2 = rt.objects.ChoiceButton2.getFirstInstance();
-
     if (!button1 || !button2) {
         console.error("❌ ChoiceButton1 or ChoiceButton2 not found.");
         return;
     }
-
-    // Update text
     choicetext1.text = optionsArray[0].text;
     choicetext2.text = optionsArray[1].text;
-
-    // Show elements
     choicetext1.isVisible = true;
     choicetext2.isVisible = true;
     button1.isVisible = true;
     button2.isVisible = true;
-
-    // Store choices on the button instances themselves
     button1.choiceIndex = 0;
     button2.choiceIndex = 1;
-
     window.attachChoiceListeners();
-
 };
-
 
 // ------------------------------------------------------------------------------------------------
 // 12) SELECT CHOICE
@@ -365,40 +301,43 @@ window.showChoices = function(optionsArray) {
 window.selectChoice = function(choiceIndex) {
     let rt = getRuntime();
     if (!rt) return;
-
+    if (!rt.globalVars.CurrentOptions) {
+        console.error("❌ CurrentOptions is undefined.");
+        return;
+    }
     let choice = rt.globalVars.CurrentOptions[choiceIndex];
     if (!choice) {
         console.error("❌ No choice found at index:", choiceIndex);
         return;
     }
     console.log("🎯 Player chose:", choice.text, "| route:", choice.route);
-
     let button1 = rt.objects.ChoiceButton1.getFirstInstance();
     let button2 = rt.objects.ChoiceButton2.getFirstInstance();
-	let choicetext1 = rt.objects.RedChoiceText.getFirstInstance();
-	let choicetext2 = rt.objects.BlueChoiceText.getFirstInstance();
-	if (choicetext1) choicetext1.isVisible = false;
+    let choicetext1 = rt.objects.RedChoiceText.getFirstInstance();
+    let choicetext2 = rt.objects.BlueChoiceText.getFirstInstance();
+    if (choicetext1) choicetext1.isVisible = false;
     if (choicetext2) choicetext2.isVisible = false;
     if (button1) button1.isVisible = false;
     if (button2) button2.isVisible = false;
-
     rt.globalVars.CurrentDialogue = choice.route;
     rt.globalVars.CurrentIndex = "1";
     window.isChoiceActive = false;
+    // === Handle background & BGM transition ===
+    window.handleSceneTransition(choice.route);
     window.showDialogue();
 };
+
 // ------------------------------------------------------------------------------------------------
 // 13) HIDE CHOICE BUTTONS (optional helper)
 // ------------------------------------------------------------------------------------------------
 window.hideChoiceButtons = function() {
     let rt = getRuntime();
     if (!rt) return;
-
     let button1 = rt.objects.ChoiceButton1.getFirstInstance();
     let button2 = rt.objects.ChoiceButton2.getFirstInstance();
-	let choicetext1 = rt.objects.RedChoiceText.getFirstInstance();
-	let choicetext2 = rt.objects.BlueChoiceText.getFirstInstance();
-	if (choicetext1) choicetext1.isVisible = false;
+    let choicetext1 = rt.objects.RedChoiceText.getFirstInstance();
+    let choicetext2 = rt.objects.BlueChoiceText.getFirstInstance();
+    if (choicetext1) choicetext1.isVisible = false;
     if (choicetext2) choicetext2.isVisible = false;
     if (button1) button1.isVisible = false;
     if (button2) button2.isVisible = false;
@@ -410,37 +349,97 @@ window.hideChoiceButtons = function() {
 window.attachChoiceListeners = function() {
     let rt = getRuntime();
     if (!rt) return;
-
     let button1 = rt.objects.ChoiceButton1.getFirstInstance();
     let button2 = rt.objects.ChoiceButton2.getFirstInstance();
-
     if (!button1 || !button2) {
         console.error("❌ Cannot attach listeners — choice buttons not found.");
         return;
     }
-
-    // Remove previous listeners to avoid stacking (optional, for safety)
+    // Remove previous listeners to avoid stacking (if applicable)
     if (button1.domElement) button1.domElement.removeEventListener("click", button1._choiceClick);
     if (button2.domElement) button2.domElement.removeEventListener("click", button2._choiceClick);
-
-    // Define handlers
+    // Define handlers for sprite hitboxes (Note: For sprites, use Construct's Mouse events instead)
     button1._choiceClick = () => window.selectChoice(button1.choiceIndex);
     button2._choiceClick = () => window.selectChoice(button2.choiceIndex);
-
-    // Attach listeners using Construct's DOM wrappers (assumes you're using the DOM plugin)
+    // If using DOM wrappers (if applicable)
     if (button1.instVars && button1.instVars.__dom && button1.instVars.__dom.element) {
         button1.instVars.__dom.element.addEventListener("click", button1._choiceClick);
     } else if (button1.domElement) {
         button1.domElement.addEventListener("click", button1._choiceClick);
     }
-
     if (button2.instVars && button2.instVars.__dom && button2.instVars.__dom.element) {
         button2.instVars.__dom.element.addEventListener("click", button2._choiceClick);
     } else if (button2.domElement) {
         button2.domElement.addEventListener("click", button2._choiceClick);
     }
-
     console.log("🖲️ Choice listeners attached to sprite hitboxes.");
+};
+
+// ------------------------------------------------------------------------------------------------
+// Scene Transition Functions
+// ------------------------------------------------------------------------------------------------
+window.handleSceneTransition = function(dialogueKey) {
+    const rt = getRuntime();
+    if (!rt) return;
+    const jsonObj = rt.objects.DialogueJSONObject.getFirstInstance();
+    if (!jsonObj) return;
+    const jsonData = jsonObj.getJsonDataCopy();
+    const section = jsonData[dialogueKey];
+    if (!section) return;
+    const bgmName = section.bgm || null;
+    // const bgImageName = section.background || null;
+    if (bgmName) window.transitionBGM(bgmName);
+    // if (bgImageName) window.transitionBackground(bgImageName);
+};
+
+// ------------------------------------------------------------------------------------------------
+// Transition Background Music using the new audio API
+// ------------------------------------------------------------------------------------------------
+window.transitionBGM = function(newTrackName) {
+    const rt = getRuntime();
+    if (!rt) return;
+    console.log("Setting global BGMName to:", newTrackName);
+    rt.globalVars.BGMName = newTrackName;  // Set the Construct global variable
+    console.log("Calling PlayBGM function");
+    rt.callFunction("PlayBGM");  // Now the event can use BGMName directly
+};
+
+
+// ------------------------------------------------------------------------------------------------
+// Transition Background using the new image loader & fade functions
+// ------------------------------------------------------------------------------------------------
+window.transitionBackground = function(newBgFilename) {
+    const rt = getRuntime();
+    if (!rt) return;
+    // Use consistent object name: BackgroundSprite
+    const bgSprite = rt.objects.BackgroundSprite.getFirstInstance();
+    if (!bgSprite) return;
+    console.log("🌆 Switching background to:", newBgFilename);
+    rt.callFunction("FadeOutBG", [bgSprite.uid, 1]);
+    setTimeout(() => {
+        bgSprite.loadImageFromUrl(`images/${newBgFilename}`, () => {
+            rt.callFunction("FadeInBG", [bgSprite.uid, 1]);
+        });
+    }, 1000);
+};
+
+// ------------------------------------------------------------------------------------------------
+// OPTIONAL: Toggle Audio Mute using the new audio API
+// ------------------------------------------------------------------------------------------------
+window.toggleAudioMute = function() {
+    const rt = getRuntime();
+    if (!rt) return;
+    // We simulate mute by setting the master volume to 0 and unmute by setting it to 1.
+    // (Adjust these values as needed based on your project’s volume scale.)
+    if (rt._audioMuted) {
+        rt.audio.setMasterVolume(1.0);
+        rt._audioMuted = false;
+        console.log("Audio unmuted.");
+    } else {
+        rt.audio.setMasterVolume(0.0);
+        rt._audioMuted = true;
+        console.log("Audio muted.");
+    }
 };
 
 
