@@ -57,7 +57,7 @@
   },
 
   "A1": {
-  "bgm": "Vengabus",
+  "bgm": "Ether Disco",
   "background": "clove_background.jpg",
   "1": {
     "speaker": "Narrator",
@@ -114,49 +114,45 @@
 },
 
 "A2": {
-  "bgm": "CloveTheme.mp3",
+  "bgm": "Disco Medusae",
   "background": "clove_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You have declared war on Clove."
+    "text": "In order to make sure that your platform will resonate with the people, you study history, "
   },
   "2": {
     "speaker": "Narrator",
-    "text": "In order to make sure that your platform will resonate with the people, you studies history, "
+    "text": "that people are just lazy and don't want to work. Sharing these ideas a local real estate mogul has "
   },
   "3": {
     "speaker": "Narrator",
-    "text": " that people are just lazy and don't want to work. Sharing these ideas a local real estate mogul has "
+    "text": "reached out and would love to donate to your campaign. He is a blue bottle of mouthwash, "
   },
   "4": {
     "speaker": "Narrator",
-    "text": " reached out and would love to donate to your campaign. He is a blue bottle of mouthwash, "
+    "text": "with a suit and tie much like your own. A golden crown adorns his head. "
   },
   "5": {
     "speaker": "Narrator",
-    "text": " with a suit and tie much like your own. A golden crown adorns his head. "
+    "text": "King, King Pin, he introduces himself. He has connections in this city and can put you in contact "
   },
   "6": {
     "speaker": "Narrator",
-    "text": "King, King Pin, he introduces himself. He has connections in this city and can put you in contact "
+    "text": "with the right people to really help you reach the voting base in Gumtham. He also leases prison space to other citizens"
   },
   "7": {
     "speaker": "Narrator",
-    "text": "with the right people to really help you reach the voting base in gumtham. He also leases prison space to other citizens"
+    "text": "so you'd have a place to put folks who use illegal substances, and connections to the local police so that you both can fund "
   },
   "8": {
     "speaker": "Narrator",
-    "text": " so you'd have a place to put folks who use illegal substances, and connections to the local police so that you both can fund "
+    "text": "their projects to really clean up the plaque decaying your city."
   },
   "9": {
     "speaker": "Narrator",
-    "text": " their projects to really clean up the plaque decaying your city."
-  },
-  "10": {
-    "speaker": "Narrator",
     "text": "With such resources it's a wonder King Pin isn't running for mayor himself, "
   },
-  "11": {
+  "10": {
     "speaker": "Narrator",
     "text": "but he says not to focus on that right now. All he needs to know is if you'll let him help you."
   },
@@ -164,138 +160,131 @@
     "speaker": "Narrator",
     "text": "",
     "options": [
-    { "route": "A4", "text": "Let's Trust King, he's been great so far!" },
-    { "route": "A5", "text": "I wont be able to sleep at night if I dont oversee the destruction of such harmful materials myself."
+      { "route": "A4", "text": "Let's Trust King, he's been great so far!" },
+      { "route": "A5", "text": "I won’t be able to sleep at night if I don’t oversee the destruction of such harmful materials myself." }
+    ]
   }
-  ]
-  }
-},
+}
+,
 
 "A3": {
-  "bgm": "CloveTheme.mp3",
+  "bgm": "Crunk Knight",
   "background": "clove_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You have declared war on Clove."
+    "text": "As much as you appreciate the offer from King, you need to ensure that no external entities"
   },
   "2": {
     "speaker": "Narrator",
-    "text": "As much as you appreciate the Offer from king, you need to ensure that no external entities"
+    "text": "have influence or sway in what you're looking to do. You refuse to be someone who gets elected "
   },
   "3": {
     "speaker": "Narrator",
-    "text": "have influence or sway in what you're looking to do. You refuse to be someone who gets elected have influence or sway in what you're looking to do. You refuse to be someone who gets elected "
+    "text": "only to have to compromise on your ideals in order to meet past favors."
   },
   "4": {
     "speaker": "Narrator",
-    "text": "only to have to compromise on your ideals in order to meet past favors."
+    "text": "You start doing activist outreach, looking to find people who are willing to help you make posters."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "You start doing activist outreach, looking to find people who are willing to help you make posters."
+    "text": "You become really popular at PTA meetings, and with home-owner's associations."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "You become really popular at PTA meetings, and with home-owner's associations."
+    "text": "Your posters and advertising might have been better with more professional help,"
   },
   "7": {
     "speaker": "Narrator",
-    "text": "Your posters and advertising might have been better with more professional help,"
+    "text": "but you're proud of the community you've helped to create."
   },
   "8": {
     "speaker": "Narrator",
-    "text": "but you're proud of the community you've helped to create."
+    "text": "Communicating is still difficult, not everyone speaks sign language, and it makes it difficult to tell if people"
   },
   "9": {
     "speaker": "Narrator",
-    "text": "Communicating is still difficult, not everyone speaks sign language, and it makes it difficult to tell if people"
+    "text": "are truly getting your message. Everyone wants to hear your voice. They need to know that you would be an effective"
   },
   "10": {
     "speaker": "Narrator",
-    "text": "are truly getting your message. Everyone wants to hear your voice. The need to know that you would be an effective "
+    "text": "leader both inside the office and outside. Pressured by the parents of children who would one day come to live in the very"
   },
   "11": {
     "speaker": "Narrator",
-    "text": " leader both inside the office and outside. Pressured by the parents of children who would one day come to live in the very "
-  },
-  "12": {
-    "speaker": "Narrator",
-    "text": "would you're trying to create you deeply consider whether you should speak up or not during the next debate with Mayor Denton."
+    "text": "world you're trying to create, you deeply consider whether you should speak up or not during the next debate with Mayor Denton."
   },
   "F": {
     "speaker": "Narrator",
     "text": "",
     "options": [
-    { "route": "A6", "text": "To Speak" },
-    { "route": "A7", "text": "Or not to Speak" }
-  ]
+      { "route": "A6", "text": "To Speak" },
+      { "route": "A7", "text": "Or not to Speak" }
+    ]
   }
-},
+}
+,
 
 "A4": {
-  "bgm": "CloveTheme.mp3",
+  "bgm": "Disco con Tutti",
   "background": "clove_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You have declared war on Clove."
+    "text": "King was a fantastic help in getting you elected."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "King was a fantastic help in getting you elected. "
+    "text": "But the problems in this city don't seem to get better during your term."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "But the problems in this city don't seem to get better during your term."
+    "text": "Every time you try to get involved over the next 4 years you're persuaded not to."
   },
   "4": {
     "speaker": "Narrator",
-    "text": "Everytime you try to get involved over the next 4 years you're persuaded not to."
+    "text": "Eventually it comes time for re-election and despite the backing from King you're re-replaced by Gumtham's previous mayor."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "Eventually it comes time for re-election and despite the backing from King you're re-replaced by Gumthams previous mayor. "
+    "text": "It really hurts because they make fun of the fact that you never speak."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "It really hurts because they make fun of the fact that you never speak. "
+    "text": "Even when doing so would drive the citizens you care so deeply about to madness."
   },
   "7": {
     "speaker": "Narrator",
-    "text": "Even when doing so would drive the citizens you care so deeply about to madness."
+    "text": "More people are arrested for possession of illicit substances than ever before."
   },
   "8": {
     "speaker": "Narrator",
-    "text": "More people are arrested for possession of illicit substances than ever before. "
+    "text": "However the prisons get a nice overhaul and prisoners make the state money to fund further raids on clove extracting plants."
   },
   "9": {
     "speaker": "Narrator",
-    "text": "However the prisons get a nice overhaul and prisoners make the state money to fund further raids on clove extracting plants."
+    "text": "Eventually the problem should resolve itself."
   },
   "10": {
     "speaker": "Narrator",
-    "text": "Eventually the problem should resolve itself."
+    "text": "Gumtham city remembers you as an ineffectual mayor however."
   },
   "11": {
     "speaker": "Narrator",
-    "text": "Gumtham city remembers you as an ineffectual mayor however."
+    "text": "One who over-promised and under-delivered. Stats show that orphanages"
   },
   "12": {
     "speaker": "Narrator",
-    "text": "One who over-promised and under delivered. Stats show that orphanages"
+    "text": "can barely keep up with the increased influx of children during your term."
   },
   "13": {
     "speaker": "Narrator",
-    "text": "can barely keep up with the increased influx of children during your term. "
+    "text": "And without a proper family to take care of them experts say it's only a matter of time before the next crime wave."
   },
   "14": {
     "speaker": "Narrator",
-    "text": "And without a proper family to take care of them experts say it's only a matter of time before the next crime wave."
+    "text": "But at least you got to be mayor for a while."
   },
   "15": {
-    "speaker": "Narrator",
-    "text": "But at least you got to be mayor for while. "
-  },
-  "16": {
     "speaker": "Narrator",
     "text": "Maybe there was someone you managed to help while you were there."
   },
@@ -303,174 +292,167 @@
     "speaker": "Narrator",
     "text": "",
     "options": [
-    { "route": "A1", "text": "War on Clove" },
-    { "route": "B1", "text": "Tax the Wealthy" }
-  ]
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
   }
 },
 
+
 "A5": {
-  "bgm": "CloveTheme.mp3",
+  "bgm": "Political Ad",
   "background": "clove_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You have declared war on Clove."
+    "text": "You tell King that you're going to oversee the disposal of the clove extract for your own conscience."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "You tell King that you're going to oversee the disposal of the clove extract for your own conscience. "
+    "text": "Raids happen and people are arrested and the prisons that King leases fill up with clove dealers, users and abusers."
   },
   "3": {
     "speaker": "Narrator",
-    "text": " Raids happen and people are arrested and the prisons that King leases fill up with clove dealers, users and abusers. "
+    "text": "Everything seems to be going well."
   },
   "4": {
     "speaker": "Narrator",
-    "text": "Everything seems to be going well. "
+    "text": "Until the police get a tip that your office has been hiding clove extract in it for your personal use."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "Until the police get a tip that your office has been hiding clove extract in it for your personal use."
+    "text": "Because of the ability to raid without warrants that you granted to the police, you're powerless to stop them from searching your office."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "Because of the ability to raid without warrants that you granted to the police, you're powerless to stop them from searching your office."
+    "text": "To your surprise they find half used bottles of extract in your desk, with your fingerprints on them."
   },
   "7": {
     "speaker": "Narrator",
-    "text": "To your surprise they find half used bottles of extract in your desk, with your fingerprints on them. "
+    "text": "so you'd have a place to put folks who use illegal substances, and connections to the local police so that you both can fund"
   },
   "8": {
     "speaker": "Narrator",
-    "text": " so you'd have a place to put folks who use illegal substances, and connections to the local police so that you both can fund "
+    "text": "You deny any wrongdoing but when you ask King for legal assistance he refuses to pay for the lawyer you'd need to win the case."
   },
   "9": {
     "speaker": "Narrator",
-    "text": "You deny any wrongdoing but when you ask King for legal assistance he refuses to pay for the lawyer you'd need to win the case."
+    "text": "You end up convicted yourself, but due to your size there's no prison that could contain you. The state has no choice but to sentence you to death."
   },
   "10": {
     "speaker": "Narrator",
-    "text": "You end up convicted yourself, but due to your size there's no prison that could contain you. The state has no choice but to sentence you to death."
+    "text": "You're impeached as mayor and the public sees you for the hypocrite you've been painted as. An emergency election is held before you would go on death row."
   },
   "11": {
     "speaker": "Narrator",
-    "text": "You're impeached as mayor and the public sees you for the hypocrite you've been painted as. An emergency election is held before you would go on death row."
+    "text": "King Pin and ex mayor Denton run against one another. King Pin uses your crimes as the primary narrative in his campaign."
   },
   "12": {
     "speaker": "Narrator",
-    "text": "King Pin and ex mayor denton run against one another. King Pin uses your crimes as the primary narrative in his campaign."
+    "text": "Claiming ignorance of your true character and using his support of your original policies as evidence that he would be an effectual mayor."
   },
   "13": {
     "speaker": "Narrator",
-    "text": "Claiming ignorance of your true character and using his support of your original policies as evidence that he would be an effectual mayor. "
+    "text": "He wins, and is there in the crowd to witness your execution."
   },
   "14": {
     "speaker": "Narrator",
-    "text": "He wins, and is there in the crowd to witness your execution."
+    "text": "Funnily enough, clove is poisonous in high quantities and due to your"
   },
   "15": {
     "speaker": "Narrator",
-    "text": "Funnily enough, clove is poisonous in high quantities and due to your "
+    "text": "unique physiology lethal injection seems to be the best way to get the job done."
   },
   "16": {
     "speaker": "Narrator",
-    "text": "  unique physiology lethal injection seems to be the best way to get the job done."
+    "text": "You let out one tear, realizing that to share your last words would only harm the people you were trying to save."
   },
   "17": {
     "speaker": "Narrator",
-    "text": "You let out one tear, realizing that to share your last words would only harm the people you were trying to save."
-  },
-  "18": {
-    "speaker": "Narrator",
     "text": "Then everything goes black."
   },
-
   "F": {
     "speaker": "Narrator",
     "text": "",
     "options": [
-    { "route": "A1", "text": "War on Clove" },
-    { "route": "B1", "text": "Tax the Wealthy" }
-  ]
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
   }
-},
+}
+,
 
 "A6": {
-  "bgm": "CloveTheme.mp3",
+  "bgm": "Burn The World Waltz",
   "background": "clove_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You have declared war on Clove."
+    "text": "It's Debate night, and incumbent mayor detention has been destroying your platform. "
   },
   "2": {
     "speaker": "Narrator",
-    "text": "It's Debate night, and incumbent mayor detention has been destroying your platform. "
+    "text": "Unfortunately the interpreter who was supposed to help you had to pick up their kids from their factory jobs."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "Unfortunately the interpreter who was supposed to help you had to pick up their kids from their factory jobs."
+    "text": "Mayor Denton's platform of child labor has been gaining traction. "
   },
   "4": {
     "speaker": "Narrator",
-    "text": "Mayor Denton's platform of child labor has been gaining traction. "
+    "text": "And his backing from local mining companies has all but snuffed out any publicity you may be gaining."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "And his backing from local mining companies has all but snuffed out any publicity you may be gaining."
+    "text": "Overwhelmed by the odds, you realize that if you say nothing, nothing will change. "
   },
   "6": {
     "speaker": "Narrator",
-    "text": "Overwhelmed by the odds, you realize that if you say nothing, nothing will change. "
+    "text": "You open your mouth and let the people hear what you truly have to say."
   },
   "7": {
     "speaker": "Narrator",
-    "text": "You open your mouth and let the people hear what you truly have to say."
+    "text": "𝕋̵͕̻̈́H̴̗̗̟̄̏̽͑̎̓̎̾Ȇ̴̙̙͈̼̞̖̾͛̈́̿̀̕͝ ̸̡͋Ų̸̤͈̃̒͌̓̈́̽̈̚N̵̡̙͚͉̳̳̈́̀́̇̊S̶̢̻͇͎̤͉̿̈̄̊̄̈́̍P̴̢̛̳͈̲̥͆͑̽̈́̾̅͗ͅͅÉ̷̛̼̰͇̽̒̍̇͌Ḁ̷̪̯̺̼̝̄͛͆̕ͅK̵̲̼̰̖̝͌͆̇̿̾̕͘Ä̸̤̖́̀̑̈́͆̕̕͝B̵̡͇̞̝̌L̷̲̜̄̄Ę̸̹̪̲̏͛͑̊̏̕ ̴̜̰̍̆Į̷̍̈́̽͒̄̓̕̚S̴̛̻͎̯̯̐̌͝ ̵̛͖̪̾̃̇̈́͌͊H̷̡̬͙̯͈̯̆̍̀̀͝͝E̶̼̼̠̬̋̈́͒̏̄̋̕R̸̺̲̐́̚E̷̘̝̬̻̗̲͖̊̇͌̅̾͆̽"
   },
   "8": {
     "speaker": "Narrator",
-    "text": "𝕋̵͕̻̈́H̴̗̗̟̄̏̽͑̎̓̎̾Ȇ̴̙̙͈̼̞̖̾͛̈́̿̀̕͝ ̸̡͋Ų̸̤͈̃̒͌̓̈́̽̈̚N̵̡̙͚͉̳̳̈́̀́̇̊S̶̢̻͇͎̤͉̿̈̄̊̄̈́̍P̴̢̛̳͈̲̥͆͑̽̈́̾̅͗ͅͅÉ̷̛̼̰͇̽̒̍̇͌Ḁ̷̪̯̺̼̝̄͛͆̕ͅK̵̲̼̰̖̝͌͆̇̿̾̕͘Ä̸̤̖́̀̑̈́͆̕̕͝B̵̡͇̞̝̌L̷̲̜̄̄Ę̸̹̪̲̏͛͑̊̏̕ ̴̜̰̍̆Į̷̍̈́̽͒̄̓̕̚S̴̛̻͎̯̯̐̌͝ ̵̛͖̪̾̃̇̈́͌͊H̷̡̬͙̯͈̯̆̍̀̀͝͝E̶̼̼̠̬̋̈́͒̏̄̋̕R̸̺̲̐́̚E̷̘̝̬̻̗̲͖̊̇͌̅̾͆̽"
+    "text": "The immediate audience's heads pop into a bloody mess."
   },
   "9": {
     "speaker": "Narrator",
-    "text": "The immediate audience's heads pop into a bloody mess."
+    "text": "Mayor Denton lets out a scream as he is erased from reality. "
   },
   "10": {
     "speaker": "Narrator",
-    "text": "Mayor Denton lets out a scream as he is erased from reality. "
+    "text": "Sirens go up as screams can be heard coming from the streets. "
   },
   "11": {
     "speaker": "Narrator",
-    "text": "Sirens go up as screams can be heard coming from the streets. "
+    "text": "The coming weeks are hell as the city attempts to recover. "
   },
   "12": {
     "speaker": "Narrator",
-    "text": "The coming weeks are hell as the city attempts to recover. "
+    "text": "On the bright side you run unopposed, you win in a landslide as the only being with remaining candidacy."
   },
   "13": {
     "speaker": "Narrator",
-    "text": "On the bright side you run unopposed, you win in a landslide as the only being with remaining candidacy."
+    "text": "Unfortunately those who could help you evoke the change you desire all fear you."
   },
   "14": {
     "speaker": "Narrator",
-    "text": "Unfortunately those who could help you evoke the change you desire all fear you."
+    "text": "They can't share their observations and ideas to assist you in helping Gumtham. "
   },
   "15": {
     "speaker": "Narrator",
-    "text": "They can't share their observations and ideas to assist you in helping Gumtham. "
+    "text": "Parents hide their children from you. "
   },
   "16": {
     "speaker": "Narrator",
-    "text": "Parents hide their children from you. "
+    "text": "After 4 years you're re-elected, but most people use clove extract to forget that horrible night in the debate hall. "
   },
   "17": {
     "speaker": "Narrator",
-    "text": "After 4 years you're re-elected, but most people use clove extract to forget that horrible night in the debate hall. "
-  },
-  "18": {
-    "speaker": "Narrator",
     "text": "People stop going to work, and starvation sets in in your city. "
   },
-  "19": {
+  "18": {
     "speaker": "Narrator",
     "text": "You have failed this city."
   },
@@ -478,80 +460,77 @@
     "speaker": "Narrator",
     "text": "",
     "options": [
-    { "route": "A1", "text": "War on Clove" },
-    { "route": "B1", "text": "Tax the Wealthy" }
-  ]
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
   }
-},
+}
+,
 
 "A7": {
-  "bgm": "CloveTheme.mp3",
+  "bgm": "The Path of the Goblin King",
   "background": "clove_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You have declared war on Clove."
+    "text": "Your silence on stage is felt. People realize you don't have what it takes to back the policies you're supporting."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "Your silence on stage is felt. People realize you don't have what it takes to back the policies you're supporting."
+    "text": "Mayor Denton's child labor platform is enacted, and no one has time to even abuse clove extract anymore. "
   },
   "3": {
     "speaker": "Narrator",
-    "text": "Mayor Denton's child labor platform is enacted, and no one has time to even abuse clove extract anymore. "
+    "text": "They're all working too much. "
   },
   "4": {
     "speaker": "Narrator",
-    "text": "They're all working too much. "
+    "text": " On the bright side, you didn't take help from King Pin, who is arrested as the leader of the local mafia. "
   },
   "5": {
     "speaker": "Narrator",
-    "text": " On the bright side, you didn't take help from King Pin, who is arrested as the leader of the local mafia. "
+    "text": "He was actually the person running the Clove smuggling ring in Gumtham city. "
   },
   "6": {
     "speaker": "Narrator",
-    "text": "He was actually the person running the Clove smuggling ring in Gumtham city. "
+    "text": "He got caught because the mining companies funding Mayor Denton actually enjoyed your policies about the war on drugs. "
   },
   "7": {
     "speaker": "Narrator",
-    "text": "He got caught because the mining companies funding Mayor Denton actually enjoyed your policies about the war on drugs. "
+    "text": "Over the next 4 years people stop showing up to PTA meetings."
   },
   "8": {
     "speaker": "Narrator",
-    "text": "Over the next 4 years people stop showing up to PTA meetings."
+    "text": "No one can afford homes anymore due to the lack of income provided by their mining jobs, "
   },
   "9": {
     "speaker": "Narrator",
-    "text": "No one can afford homes anymore due to the lack of income provided by their mining jobs, "
+    "text": "so there's no longer Home-Owner's associations. "
   },
   "10": {
     "speaker": "Narrator",
-    "text": "so there's no longer Home-Owner's associations. "
+    "text": "You start to feel ill due to mercury runoff from the mines polluting your living space in the bay near Gumtham. "
   },
   "11": {
     "speaker": "Narrator",
-    "text": "You start to feel ill due to mercury runoff from the mines polluting your living space in the bay near Gumtham. "
+    "text": "You start to detach from reality, "
   },
   "12": {
     "speaker": "Narrator",
-    "text": "You start to detach from reality, "
+    "text": "unable to live with your failure to uphold your responsibility to the citizens you claimed to care about. "
   },
   "13": {
     "speaker": "Narrator",
-    "text": "unable to live with your failure to uphold your responsibility to the citizens you claimed to care about. "
+    "text": "Hermitude suits you. You start making hats, and thinking about how you could "
   },
   "14": {
     "speaker": "Narrator",
-    "text": "Hermitude suits you. You start making hats, and thinking about how you could "
+    "text": "You start making hats, and thinking about how you could sell those hats to others in order to continue feeding yourself."
   },
   "15": {
     "speaker": "Narrator",
-    "text": "You start making hats, and thinking about how you could sell those hats to others in order to continue feeding yourself."
-  },
-  "16": {
-    "speaker": "Narrator",
     "text": "No one buys your hats and you starve in the winter of the 4th year of Denton's term. "
   },
-  "17": {
+  "16": {
     "speaker": "Narrator",
     "text": "You never find out if things ever get better for Gumtham city. "
   },
@@ -559,14 +538,15 @@
     "speaker": "Narrator",
     "text": "",
     "options": [
-    { "route": "A1", "text": "War on Clove" },
-    { "route": "B1", "text": "Tax the Wealthy" }
-  ]
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
   }
 },
 
+
 "B1": {
-  "bgm": "TaxTheme.mp3",
+  "bgm": "Unity",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
@@ -607,7 +587,7 @@
 },
 
 "B2A": {
-  "bgm": "TaxTheme.mp3",
+  "bgm": "Getting it Done",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
@@ -644,7 +624,7 @@
 },
 
 "B3": {
-  "bgm": "TaxTheme.mp3",
+  "bgm": "Captain Scurvy",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
@@ -677,7 +657,7 @@
 },
 
 "B4": {
-  "bgm": "TaxTheme.mp3",
+  "bgm": "Captain Scurvy",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
@@ -714,7 +694,7 @@
 },
 
 "B5": {
-  "bgm": "TaxTheme.mp3",
+  "bgm": "Captain Scurvy",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
@@ -751,7 +731,7 @@
 },
 
 "B2B": {
-  "bgm": "TaxTheme.mp3",
+  "bgm": "Getting it Done",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
@@ -792,7 +772,7 @@
 },
 
 "B3B": {
-  "bgm": "TaxTheme.mp3",
+  "bgm": "Destiny Day",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
@@ -869,7 +849,7 @@
 },
 
 "B4B": {
-  "bgm": "TaxTheme.mp3",
+  "bgm": "Captain Scurvy",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
@@ -906,7 +886,7 @@
 },
 
 "B5B": {
-  "bgm": "TaxTheme.mp3",
+  "bgm": "Fight",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
@@ -980,7 +960,7 @@
 
 
 "B6B": {
-  "bgm": "TaxTheme.mp3",
+  "bgm": "Captain Scurvy",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
@@ -1094,7 +1074,7 @@
 },
 
 "B8B": {
-  "bgm": "TaxTheme.mp3",
+  "bgm": "Captain Scurvy",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
@@ -1132,7 +1112,7 @@
 
 
 "B9B": {
-  "bgm": "TaxTheme.mp3",
+  "bgm": "mystery",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
@@ -1235,7 +1215,7 @@
 },
 
 "B10B": {
-  "bgm": "TaxTheme.mp3",
+  "bgm": "Danse Macabre",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
@@ -1292,7 +1272,7 @@
 },
 
 "B11B": {
-  "bgm": "TaxTheme.mp3",
+  "bgm": "SCP7",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
@@ -1353,7 +1333,7 @@
 },
 
 "B12B": {
-  "bgm": "TaxTheme.mp3",
+  "bgm": "Death of Kings",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
