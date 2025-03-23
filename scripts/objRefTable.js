@@ -10,6 +10,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Browser,
 		C3.Behaviors.Pin,
 		C3.Plugins.Audio,
+		C3.Plugins.TiledBg,
 		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Plugins.AJAX.Acts.RequestFile,
 		C3.ScriptsInEvents.Main_Event1_Act2,
@@ -25,7 +26,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.ScriptsInEvents.Main_Event3_Act1,
 		C3.ScriptsInEvents.Main_Event4_Act1,
 		C3.Plugins.Audio.Acts.StopAll,
-		C3.Plugins.Audio.Acts.PlayByName
+		C3.Plugins.Audio.Acts.PlayByName,
+		C3.Plugins.Mouse.Cnds.IsOverObject,
+		C3.Plugins.Sprite.Acts.SetEffectEnabled,
+		C3.Plugins.System.Cnds.Else
 	];
 };
 self.C3_JsPropNameTable = [
@@ -45,6 +49,9 @@ self.C3_JsPropNameTable = [
 	{RedChoiceText: 0},
 	{BlueChoiceText: 0},
 	{Audio: 0},
+	{TiledBackground: 0},
+	{Sprite: 0},
+	{Sprite2: 0},
 	{CurrentDialogue: 0},
 	{BGMName: 0},
 	{CurrentDialogueIndex: 0}
@@ -65,5 +72,8 @@ self.InstanceType = {
 	ChoiceButton2: class extends self.ISpriteInstance {},
 	RedChoiceText: class extends self.ITextInstance {},
 	BlueChoiceText: class extends self.ITextInstance {},
-	Audio: class extends self.IInstance {}
+	Audio: class extends self.IInstance {},
+	TiledBackground: class extends self.ITiledBackgroundInstance {},
+	Sprite: class extends self.ISpriteInstance {},
+	Sprite2: class extends self.ISpriteInstance {}
 }

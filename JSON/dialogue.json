@@ -1,62 +1,66 @@
 {
-  "intro": {
-    "bgm": "rain",
-    "background": "clove_background.jpg",
-    "1": {
-      "speaker": "Narrator",
-      "text": "The incumbent, Mayor Denton, has been a corrupting influence on Gumtham City for too long."
-    },
-    "2": {
-      "speaker": "Narrator",
-      "text": "He has run unopposed in the last nine elections, and the people of Gumtham have suffered under his leadership."
-    },
-    "3": {
-      "speaker": "Narrator",
-      "text": "You have watched. You have waited."
-    },
-    "4": {
-      "speaker": "Narrator",
-      "text": "The suffering has continued."
-    },
-    "5": {
-      "speaker": "Narrator",
-      "text": "You are Cthulhu."
-    },
-    "6": {
-      "speaker": "Narrator",
-      "text": "A being beyond mortal comprehension."
-    },
-    "7": {
-      "speaker": "Narrator",
-      "text": "A harbinger of higher states of consciousness and impeccable dental hygiene."
-    },
-    "8": {
-      "speaker": "Narrator",
-      "text": "And, apparently, the only one willing to run against Mayor Denton."
-    },
-    "9": {
-      "speaker": "Narrator",
-      "text": "Your platform, choices, and ability to convince the people of Gumtham are the only tools available to you."
-    },
-    "10": {
-      "speaker": "Narrator",
-      "text": "But before you begin your campaign..."
-    },
-    "11": {
-      "speaker": "Narrator",
-      "text": "you must decide on a platform."
-    },
-"F": {
-  "speaker": "Narrator",
-  "text": "Which platform will you run on?",
-  "options": [
-    { "route": "A1", "text": "War on Clove" },
-    { "route": "B1", "text": "Tax the Wealthy" }
-  ]
-}
+"intro": {
+  "bgm": "rain",
+  "background": "clove_background.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "The incumbent, Mayor Denton, has been a corrupting influence on Gumtham City for too long."
   },
+  "2": {
+    "speaker": "Narrator",
+    "text": "He’s run unopposed for the last nine elections."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "And the people have suffered for it."
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "You have watched. You have waited."
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "The suffering has only deepened."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "You are Cthulhu."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "A being beyond mortal comprehension."
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "A harbinger of higher consciousness... and impeccable dental hygiene."
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "And, apparently, the only one willing to run against Mayor Denton."
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "Your campaign will be built on your choices, your ideals, and your power to sway the people of Gumtham."
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "But first..."
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "You must choose your platform."
+  },
+  "F": {
+    "speaker": "Narrator",
+    "text": "Which platform will you run on?",
+    "options": [
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
+  }
+},
 
-  "A1": {
+"A1": {
   "bgm": "Ether Disco",
   "background": "clove_background.jpg",
   "1": {
@@ -65,165 +69,212 @@
   },
   "2": {
     "speaker": "Narrator",
-    "text": "In order to make sure that your platform will resonate with the people, you studies history, "
+    "text": "To ensure your platform resonates, you dive into the city's history."
   },
   "3": {
     "speaker": "Narrator",
-    "text": " that people are just lazy and don't want to work. Sharing these ideas a local real estate mogul has "
+    "text": "You learn that people believe addiction stems from laziness."
   },
   "4": {
     "speaker": "Narrator",
-    "text": " reached out and would love to donate to your campaign. He is a blue bottle of mouthwash, "
+    "text": "Sharing these ideas catches the attention of a local real estate mogul."
   },
   "5": {
     "speaker": "Narrator",
-    "text": " with a suit and tie much like your own. A golden crown adorns his head. "
+    "text": "He offers to donate to your campaign."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "King, King Pin, he introduces himself. He has connections in this city and can put you in contact "
+    "text": "He's a blue bottle of mouthwash in a crisp suit, just like yours."
   },
   "7": {
     "speaker": "Narrator",
-    "text": "with the right people to really help you reach the voting base in gumtham. He also leases prison space to other citizens"
+    "text": "A golden crown sits atop his cap."
   },
   "8": {
     "speaker": "Narrator",
-    "text": " so you'd have a place to put folks who use illegal substances, and connections to the local police so that you both can fund "
+    "text": "King. King Pin, he calls himself."
   },
   "9": {
     "speaker": "Narrator",
-    "text": " their projects to really clean up the plaque decaying your city."
+    "text": "He boasts of connections-political, social, financial."
   },
   "10": {
     "speaker": "Narrator",
-    "text": "With such resources it's a wonder King Pin isn't running for mayor himself, "
+    "text": "He can help you reach the voters of Gumtham."
   },
   "11": {
     "speaker": "Narrator",
-    "text": "but he says not to focus on that right now. All he needs to know is if you'll let him help you."
+    "text": "He even leases prison space, giving you a place to send those caught with illegal substances."
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "He's also tight with the police and wants to help fund joint projects to scrub the plaque from the city."
+  },
+  "13": {
+    "speaker": "Narrator",
+    "text": "With all these resources, you wonder why King Pin isn't running for mayor himself."
+  },
+  "14": {
+    "speaker": "Narrator",
+    "text": "He laughs and waves the idea away. 'Don't worry about that,' he says."
+  },
+  "15": {
+    "speaker": "Narrator",
+    "text": "All he needs to know is: will you let him help you?"
   },
   "F": {
     "speaker": "Narrator",
-    "text": "",
+    "text": "Do you accept King Pin's aid, or strike out on your own?",
     "options": [
-    { "route": "A2", "text": "King Pin's Aid" },
-    { "route": "A3", "text": "The Squid Stands Alone." }
-  ]
+      { "route": "A2", "text": "King Pin's Aid" },
+      { "route": "A3", "text": "The Squid Stands Alone." }
+    ]
   }
-},
+}
+,
 
 "A2": {
   "bgm": "Disco Medusae",
   "background": "clove_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "In order to make sure that your platform will resonate with the people, you study history, "
+    "text": "You accept King Pin’s offer and throw your lot in with him."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "that people are just lazy and don't want to work. Sharing these ideas a local real estate mogul has "
+    "text": "He moves fast."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "reached out and would love to donate to your campaign. He is a blue bottle of mouthwash, "
+    "text": "Campaign posters flood the streets overnight."
   },
   "4": {
     "speaker": "Narrator",
-    "text": "with a suit and tie much like your own. A golden crown adorns his head. "
+    "text": "You're booked on every talk show in the city."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "King, King Pin, he introduces himself. He has connections in this city and can put you in contact "
+    "text": "King is charming, effective, and disturbingly persuasive."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "with the right people to really help you reach the voting base in Gumtham. He also leases prison space to other citizens"
+    "text": "He introduces you to donors, lobbyists, and civic groups who all want a slice of your vision."
   },
   "7": {
     "speaker": "Narrator",
-    "text": "so you'd have a place to put folks who use illegal substances, and connections to the local police so that you both can fund "
+    "text": "In meetings, King talks more than you do."
   },
   "8": {
     "speaker": "Narrator",
-    "text": "their projects to really clean up the plaque decaying your city."
+    "text": "Your silence only makes you seem more mysterious. More powerful."
   },
   "9": {
     "speaker": "Narrator",
-    "text": "With such resources it's a wonder King Pin isn't running for mayor himself, "
+    "text": "You start to notice how often he speaks *for* you."
   },
   "10": {
     "speaker": "Narrator",
-    "text": "but he says not to focus on that right now. All he needs to know is if you'll let him help you."
+    "text": "Still, the results are undeniable."
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "Donations skyrocket. Public support doubles."
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "Your face is everywhere."
+  },
+  "13": {
+    "speaker": "Narrator",
+    "text": "But something gnaws at you."
+  },
+  "14": {
+    "speaker": "Narrator",
+    "text": "Every time King helps, he gains a little more control."
+  },
+  "15": {
+    "speaker": "Narrator",
+    "text": "You're not sure where you end and he begins anymore."
+  },
+  "16": {
+    "speaker": "Narrator",
+    "text": "Now he wants full control over operations."
+  },
+  "17": {
+    "speaker": "Narrator",
+    "text": "You need to decide: let him take the reins, or step in yourself?"
   },
   "F": {
     "speaker": "Narrator",
-    "text": "",
+    "text": "What kind of mayor will you be?",
     "options": [
-      { "route": "A4", "text": "Let's Trust King, he's been great so far!" },
+      { "route": "A4", "text": "Let's trust King, he's been great so far!" },
       { "route": "A5", "text": "I won’t be able to sleep at night if I don’t oversee the destruction of such harmful materials myself." }
     ]
   }
-}
-,
+},
 
 "A3": {
   "bgm": "Crunk Knight",
   "background": "clove_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "As much as you appreciate the offer from King, you need to ensure that no external entities"
+    "text": "As much as you appreciate King’s offer, you need to ensure that no external entities have influence over your campaign."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "have influence or sway in what you're looking to do. You refuse to be someone who gets elected "
+    "text": "You refuse to be someone who gets elected only to compromise on your ideals to repay past favors."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "only to have to compromise on your ideals in order to meet past favors."
+    "text": "You begin activist outreach, seeking those willing to help create posters and spread your message."
   },
   "4": {
     "speaker": "Narrator",
-    "text": "You start doing activist outreach, looking to find people who are willing to help you make posters."
+    "text": "Your presence grows at PTA meetings and home-owner’s associations throughout Gumtham."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "You become really popular at PTA meetings, and with home-owner's associations."
+    "text": "Without professional help, your posters are rough—but heartfelt."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "Your posters and advertising might have been better with more professional help,"
+    "text": "You’re proud of the grassroots community you’ve helped build."
   },
   "7": {
     "speaker": "Narrator",
-    "text": "but you're proud of the community you've helped to create."
+    "text": "Communication remains difficult."
   },
   "8": {
     "speaker": "Narrator",
-    "text": "Communicating is still difficult, not everyone speaks sign language, and it makes it difficult to tell if people"
+    "text": "Not everyone speaks sign language, and it’s hard to tell if they understand you completely."
   },
   "9": {
     "speaker": "Narrator",
-    "text": "are truly getting your message. Everyone wants to hear your voice. They need to know that you would be an effective"
+    "text": "People grow curious about your voice, wondering if you can lead both in spirit and in word."
   },
   "10": {
     "speaker": "Narrator",
-    "text": "leader both inside the office and outside. Pressured by the parents of children who would one day come to live in the very"
+    "text": "With the debate against Mayor Denton approaching, the pressure mounts."
   },
   "11": {
     "speaker": "Narrator",
-    "text": "world you're trying to create, you deeply consider whether you should speak up or not during the next debate with Mayor Denton."
+    "text": "Parents urge you to speak, hoping their children might hear a leader worth believing in."
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "You wonder: should you keep your silence, or let your voice reshape destiny?"
   },
   "F": {
     "speaker": "Narrator",
-    "text": "",
+    "text": "Do you speak during the upcoming debate?",
     "options": [
       { "route": "A6", "text": "To Speak" },
       { "route": "A7", "text": "Or not to Speak" }
     ]
   }
-}
-,
+},
 
 "A4": {
   "bgm": "Disco con Tutti",
@@ -234,63 +285,63 @@
   },
   "2": {
     "speaker": "Narrator",
-    "text": "But the problems in this city don't seem to get better during your term."
+    "text": "But the problems in this city don’t seem to get better during your term."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "Every time you try to get involved over the next 4 years you're persuaded not to."
+    "text": "Every time you try to get involved, you’re persuaded not to."
   },
   "4": {
     "speaker": "Narrator",
-    "text": "Eventually it comes time for re-election and despite the backing from King you're re-replaced by Gumtham's previous mayor."
+    "text": "Four years pass like that—detached, silent, ineffective."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "It really hurts because they make fun of the fact that you never speak."
+    "text": "When re-election comes, even with King’s support, you lose to Mayor Denton again."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "Even when doing so would drive the citizens you care so deeply about to madness."
+    "text": "People mock you for your silence."
   },
   "7": {
     "speaker": "Narrator",
-    "text": "More people are arrested for possession of illicit substances than ever before."
+    "text": "Even when you stayed quiet to spare them from madness."
   },
   "8": {
     "speaker": "Narrator",
-    "text": "However the prisons get a nice overhaul and prisoners make the state money to fund further raids on clove extracting plants."
+    "text": "Arrests for illicit substances skyrocket."
   },
   "9": {
     "speaker": "Narrator",
-    "text": "Eventually the problem should resolve itself."
+    "text": "Prisons are overhauled and prisoners now generate revenue to fund further raids."
   },
   "10": {
     "speaker": "Narrator",
-    "text": "Gumtham city remembers you as an ineffectual mayor however."
+    "text": "In theory, the problem should resolve itself."
   },
   "11": {
     "speaker": "Narrator",
-    "text": "One who over-promised and under-delivered. Stats show that orphanages"
+    "text": "But Gumtham remembers you as a mayor who over-promised and under-delivered."
   },
   "12": {
     "speaker": "Narrator",
-    "text": "can barely keep up with the increased influx of children during your term."
+    "text": "Orphanages struggle to keep up with the influx of abandoned children."
   },
   "13": {
     "speaker": "Narrator",
-    "text": "And without a proper family to take care of them experts say it's only a matter of time before the next crime wave."
+    "text": "Experts warn that another crime wave is only a matter of time."
   },
   "14": {
     "speaker": "Narrator",
-    "text": "But at least you got to be mayor for a while."
+    "text": "But you were mayor—for a little while, at least."
   },
   "15": {
     "speaker": "Narrator",
-    "text": "Maybe there was someone you managed to help while you were there."
+    "text": "Maybe someone out there remembers something good you did."
   },
-  "F": {
+"F": {
     "speaker": "Narrator",
-    "text": "",
+    "text": "Starting your journey over, which policy will you push forward?",
     "options": [
       { "route": "A1", "text": "War on Clove" },
       { "route": "B1", "text": "Tax the Wealthy" }
@@ -304,245 +355,393 @@
   "background": "clove_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You tell King that you're going to oversee the disposal of the clove extract for your own conscience."
+    "text": "You tell King that you're going to oversee the disposal of the clove extract yourself."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "Raids happen and people are arrested and the prisons that King leases fill up with clove dealers, users and abusers."
+    "text": "For your own conscience, you say."
   },
   "3": {
+    "speaker": "Narrator",
+    "text": "Raids begin across Gumtham City."
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "People are arrested in droves."
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "The prisons King leases fill up with clove dealers, users, and abusers."
+  },
+  "6": {
     "speaker": "Narrator",
     "text": "Everything seems to be going well."
   },
-  "4": {
-    "speaker": "Narrator",
-    "text": "Until the police get a tip that your office has been hiding clove extract in it for your personal use."
-  },
-  "5": {
-    "speaker": "Narrator",
-    "text": "Because of the ability to raid without warrants that you granted to the police, you're powerless to stop them from searching your office."
-  },
-  "6": {
-    "speaker": "Narrator",
-    "text": "To your surprise they find half used bottles of extract in your desk, with your fingerprints on them."
-  },
   "7": {
     "speaker": "Narrator",
-    "text": "so you'd have a place to put folks who use illegal substances, and connections to the local police so that you both can fund"
+    "text": "Until the police get a tip."
   },
   "8": {
     "speaker": "Narrator",
-    "text": "You deny any wrongdoing but when you ask King for legal assistance he refuses to pay for the lawyer you'd need to win the case."
+    "text": "Your office, they say, has been hiding clove extract for your personal use."
   },
   "9": {
     "speaker": "Narrator",
-    "text": "You end up convicted yourself, but due to your size there's no prison that could contain you. The state has no choice but to sentence you to death."
+    "text": "You try to stop them."
   },
   "10": {
     "speaker": "Narrator",
-    "text": "You're impeached as mayor and the public sees you for the hypocrite you've been painted as. An emergency election is held before you would go on death row."
+    "text": "But you gave them the right to raid without a warrant."
   },
   "11": {
     "speaker": "Narrator",
-    "text": "King Pin and ex mayor Denton run against one another. King Pin uses your crimes as the primary narrative in his campaign."
+    "text": "They barge in."
   },
   "12": {
     "speaker": "Narrator",
-    "text": "Claiming ignorance of your true character and using his support of your original policies as evidence that he would be an effectual mayor."
+    "text": "They open your desk drawers."
   },
   "13": {
     "speaker": "Narrator",
-    "text": "He wins, and is there in the crowd to witness your execution."
+    "text": "Inside, they find half-used bottles of extract."
   },
   "14": {
     "speaker": "Narrator",
-    "text": "Funnily enough, clove is poisonous in high quantities and due to your"
+    "text": "Your fingerprints are all over them."
   },
   "15": {
     "speaker": "Narrator",
-    "text": "unique physiology lethal injection seems to be the best way to get the job done."
+    "text": "You deny everything."
   },
   "16": {
     "speaker": "Narrator",
-    "text": "You let out one tear, realizing that to share your last words would only harm the people you were trying to save."
+    "text": "When you ask King for legal help, he turns you down."
   },
   "17": {
     "speaker": "Narrator",
-    "text": "Then everything goes black."
-  },
-  "F": {
-    "speaker": "Narrator",
-    "text": "",
-    "options": [
-      { "route": "A1", "text": "War on Clove" },
-      { "route": "B1", "text": "Tax the Wealthy" }
-    ]
-  }
-}
-,
-
-"A6": {
-  "bgm": "Burn The World Waltz",
-  "background": "clove_background.jpg",
-  "1": {
-    "speaker": "Narrator",
-    "text": "It's Debate night, and incumbent mayor detention has been destroying your platform. "
-  },
-  "2": {
-    "speaker": "Narrator",
-    "text": "Unfortunately the interpreter who was supposed to help you had to pick up their kids from their factory jobs."
-  },
-  "3": {
-    "speaker": "Narrator",
-    "text": "Mayor Denton's platform of child labor has been gaining traction. "
-  },
-  "4": {
-    "speaker": "Narrator",
-    "text": "And his backing from local mining companies has all but snuffed out any publicity you may be gaining."
-  },
-  "5": {
-    "speaker": "Narrator",
-    "text": "Overwhelmed by the odds, you realize that if you say nothing, nothing will change. "
-  },
-  "6": {
-    "speaker": "Narrator",
-    "text": "You open your mouth and let the people hear what you truly have to say."
-  },
-  "7": {
-    "speaker": "Narrator",
-    "text": "𝕋̵͕̻̈́H̴̗̗̟̄̏̽͑̎̓̎̾Ȇ̴̙̙͈̼̞̖̾͛̈́̿̀̕͝ ̸̡͋Ų̸̤͈̃̒͌̓̈́̽̈̚N̵̡̙͚͉̳̳̈́̀́̇̊S̶̢̻͇͎̤͉̿̈̄̊̄̈́̍P̴̢̛̳͈̲̥͆͑̽̈́̾̅͗ͅͅÉ̷̛̼̰͇̽̒̍̇͌Ḁ̷̪̯̺̼̝̄͛͆̕ͅK̵̲̼̰̖̝͌͆̇̿̾̕͘Ä̸̤̖́̀̑̈́͆̕̕͝B̵̡͇̞̝̌L̷̲̜̄̄Ę̸̹̪̲̏͛͑̊̏̕ ̴̜̰̍̆Į̷̍̈́̽͒̄̓̕̚S̴̛̻͎̯̯̐̌͝ ̵̛͖̪̾̃̇̈́͌͊H̷̡̬͙̯͈̯̆̍̀̀͝͝E̶̼̼̠̬̋̈́͒̏̄̋̕R̸̺̲̐́̚E̷̘̝̬̻̗̲͖̊̇͌̅̾͆̽"
-  },
-  "8": {
-    "speaker": "Narrator",
-    "text": "The immediate audience's heads pop into a bloody mess."
-  },
-  "9": {
-    "speaker": "Narrator",
-    "text": "Mayor Denton lets out a scream as he is erased from reality. "
-  },
-  "10": {
-    "speaker": "Narrator",
-    "text": "Sirens go up as screams can be heard coming from the streets. "
-  },
-  "11": {
-    "speaker": "Narrator",
-    "text": "The coming weeks are hell as the city attempts to recover. "
-  },
-  "12": {
-    "speaker": "Narrator",
-    "text": "On the bright side you run unopposed, you win in a landslide as the only being with remaining candidacy."
-  },
-  "13": {
-    "speaker": "Narrator",
-    "text": "Unfortunately those who could help you evoke the change you desire all fear you."
-  },
-  "14": {
-    "speaker": "Narrator",
-    "text": "They can't share their observations and ideas to assist you in helping Gumtham. "
-  },
-  "15": {
-    "speaker": "Narrator",
-    "text": "Parents hide their children from you. "
-  },
-  "16": {
-    "speaker": "Narrator",
-    "text": "After 4 years you're re-elected, but most people use clove extract to forget that horrible night in the debate hall. "
-  },
-  "17": {
-    "speaker": "Narrator",
-    "text": "People stop going to work, and starvation sets in in your city. "
+    "text": "He won’t pay for the lawyer you need."
   },
   "18": {
     "speaker": "Narrator",
-    "text": "You have failed this city."
+    "text": "You’re convicted."
   },
-  "F": {
+  "19": {
     "speaker": "Narrator",
-    "text": "",
-    "options": [
-      { "route": "A1", "text": "War on Clove" },
-      { "route": "B1", "text": "Tax the Wealthy" }
-    ]
-  }
-}
-,
-
-"A7": {
-  "bgm": "The Path of the Goblin King",
-  "background": "clove_background.jpg",
-  "1": {
-    "speaker": "Narrator",
-    "text": "Your silence on stage is felt. People realize you don't have what it takes to back the policies you're supporting."
+    "text": "No prison can contain you."
   },
-  "2": {
+  "20": {
     "speaker": "Narrator",
-    "text": "Mayor Denton's child labor platform is enacted, and no one has time to even abuse clove extract anymore. "
+    "text": "So the state sentences you to death."
   },
-  "3": {
+  "21": {
     "speaker": "Narrator",
-    "text": "They're all working too much. "
+    "text": "You're impeached before your term ends."
   },
-  "4": {
+  "22": {
     "speaker": "Narrator",
-    "text": " On the bright side, you didn't take help from King Pin, who is arrested as the leader of the local mafia. "
+    "text": "Your legacy crumbles."
   },
-  "5": {
+  "23": {
     "speaker": "Narrator",
-    "text": "He was actually the person running the Clove smuggling ring in Gumtham city. "
+    "text": "An emergency election is held."
   },
-  "6": {
+  "24": {
     "speaker": "Narrator",
-    "text": "He got caught because the mining companies funding Mayor Denton actually enjoyed your policies about the war on drugs. "
+    "text": "King Pin runs against ex-Mayor Denton."
   },
-  "7": {
+  "25": {
     "speaker": "Narrator",
-    "text": "Over the next 4 years people stop showing up to PTA meetings."
+    "text": "King Pin uses your scandal as his central talking point."
   },
-  "8": {
+  "26": {
     "speaker": "Narrator",
-    "text": "No one can afford homes anymore due to the lack of income provided by their mining jobs, "
+    "text": "He claims ignorance of your actions."
   },
-  "9": {
+  "27": {
     "speaker": "Narrator",
-    "text": "so there's no longer Home-Owner's associations. "
+    "text": "He calls himself a true reformer."
   },
-  "10": {
+  "28": {
     "speaker": "Narrator",
-    "text": "You start to feel ill due to mercury runoff from the mines polluting your living space in the bay near Gumtham. "
+    "text": "He wins."
   },
-  "11": {
+  "29": {
     "speaker": "Narrator",
-    "text": "You start to detach from reality, "
+    "text": "He’s there in the crowd to watch you die."
   },
-  "12": {
+  "30": {
     "speaker": "Narrator",
-    "text": "unable to live with your failure to uphold your responsibility to the citizens you claimed to care about. "
+    "text": "Clove, in high doses, is toxic."
   },
-  "13": {
+  "31": {
     "speaker": "Narrator",
-    "text": "Hermitude suits you. You start making hats, and thinking about how you could "
+    "text": "Your physiology makes lethal injection the most efficient method."
   },
-  "14": {
+  "32": {
     "speaker": "Narrator",
-    "text": "You start making hats, and thinking about how you could sell those hats to others in order to continue feeding yourself."
+    "text": "You let out one final tear."
   },
-  "15": {
+  "33": {
     "speaker": "Narrator",
-    "text": "No one buys your hats and you starve in the winter of the 4th year of Denton's term. "
+    "text": "You know that sharing your last words would only hurt the people you tried to save."
   },
-  "16": {
+  "34": {
     "speaker": "Narrator",
-    "text": "You never find out if things ever get better for Gumtham city. "
+    "text": "So you say nothing."
   },
-  "F": {
+  "35": {
     "speaker": "Narrator",
-    "text": "",
+    "text": "Then everything goes black."
+  },
+"F": {
+    "speaker": "Narrator",
+    "text": "Starting your journey over, which policy will you push forward?",
     "options": [
       { "route": "A1", "text": "War on Clove" },
       { "route": "B1", "text": "Tax the Wealthy" }
     ]
   }
 },
+
+"A6": {
+  "bgm": "Burn The World Waltz",
+  "background": "clove_background.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "It's debate night."
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "Incumbent Mayor Denton has been destroying your platform."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "Your interpreter never showed up."
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "They had to pick up their kids from their factory jobs."
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "Mayor Denton's child labor platform is gaining traction."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "Mining companies are pouring money into his campaign."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "Your message is fading beneath the noise."
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "Overwhelmed, you realize the truth."
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "If you say nothing now, nothing will change."
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "You open your mouth."
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "And let the people hear what you truly have to say."
+  },
+  "12": {
+    "speaker": "Narrator",
+     "text": "𝕋̵͕̻̈́H̴̗̗̟̄̏̽͑̎̓̎̾Ȇ̴̙̙͈̼̞̖̾͛̈́̿̀̕͝ ̸̡͋Ų̸̤͈̃̒͌̓̈́̽̈̚N̵̡̙͚͉̳̳̈́̀́̇̊S̶̢̻͇͎̤͉̿̈̄̊̄̈́̍P̴̢̛̳͈̲̥͆͑̽̈́̾̅͗ͅͅÉ̷̛̼̰͇̽̒̍̇͌Ḁ̷̪̯̺̼̝̄͛͆̕ͅK̵̲̼̰̖̝͌͆̇̿̾̕͘Ä̸̤̖́̀̑̈́͆̕̕͝B̵̡͇̞̝̌L̷̲̜̄̄Ę̸̹̪̲̏͛͑̊̏̕ ̴̜̰̍̆Į̷̍̈́̽͒̄̓̕̚S̴̛̻͎̯̯̐̌͝ ̵̛͖̪̾̃̇̈́͌͊H̷̡̬͙̯͈̯̆̍̀̀͝͝E̶̼̼̠̬̋̈́͒̏̄̋̕R̸̺̲̐́̚E̷̘̝̬̻̗̲͖̊̇͌̅̾͆̽"
+  },
+  "13": {
+    "speaker": "Narrator",
+    "text": "The crowd's heads pop into a bloody mist."
+  },
+  "14": {
+    "speaker": "Narrator",
+    "text": "Mayor Denton screams."
+  },
+  "15": {
+    "speaker": "Narrator",
+    "text": "And is erased from reality."
+  },
+  "16": {
+    "speaker": "Narrator",
+    "text": "Sirens blare across the city."
+  },
+  "17": {
+    "speaker": "Narrator",
+    "text": "Screams echo from the streets."
+  },
+  "18": {
+    "speaker": "Narrator",
+    "text": "The following weeks are chaos."
+  },
+  "19": {
+    "speaker": "Narrator",
+    "text": "On the bright side, you now run unopposed."
+  },
+  "20": {
+    "speaker": "Narrator",
+    "text": "You win in a landslide."
+  },
+  "21": {
+    "speaker": "Narrator",
+    "text": "But no one is brave enough to help you."
+  },
+  "22": {
+    "speaker": "Narrator",
+    "text": "Even your closest allies avoid your gaze."
+  },
+  "23": {
+    "speaker": "Narrator",
+    "text": "They can't speak without trembling."
+  },
+  "24": {
+    "speaker": "Narrator",
+    "text": "Parents hide their children from you."
+  },
+  "25": {
+    "speaker": "Narrator",
+    "text": "Four years later, you are re-elected."
+  },
+  "26": {
+    "speaker": "Narrator",
+    "text": "But most voters just want to forget that night."
+  },
+  "27": {
+    "speaker": "Narrator",
+    "text": "They turn to clove extract to erase the memory."
+  },
+  "28": {
+    "speaker": "Narrator",
+    "text": "People stop going to work."
+  },
+  "29": {
+    "speaker": "Narrator",
+    "text": "Starvation sets in."
+  },
+  "30": {
+    "speaker": "Narrator",
+    "text": "You have failed this city."
+  },
+"F": {
+    "speaker": "Narrator",
+    "text": "Starting your journey over, which policy will you push forward?",
+    "options": [
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
+  }
+},
+
+
+"A7": {
+  "bgm": "The Path of the Goblin King",
+  "background": "clove_background.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "Your silence on stage is felt."
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "People realize you don't have what it takes to back the policies you're supporting."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "Mayor Denton's child labor platform is enacted."
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "No one even has time to abuse clove extract anymore."
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "They're all working too much."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "On the bright side, you didn't take help from King Pin."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "He’s arrested as the leader of the local mafia."
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "He was actually the one running the clove smuggling ring in Gumtham City."
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "He got caught because the mining companies funding Denton liked your war on drugs stance."
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "Over the next four years, people stop showing up to PTA meetings."
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "No one can afford homes anymore due to low mining wages."
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "There are no more homeowner’s associations."
+  },
+  "13": {
+    "speaker": "Narrator",
+    "text": "Mercury runoff from the mines pollutes the bay you live in."
+  },
+  "14": {
+    "speaker": "Narrator",
+    "text": "You start to feel ill."
+  },
+  "15": {
+    "speaker": "Narrator",
+    "text": "Reality begins to slip away."
+  },
+  "16": {
+    "speaker": "Narrator",
+    "text": "You can't live with your failure to protect the people you claimed to care about."
+  },
+  "17": {
+    "speaker": "Narrator",
+    "text": "You turn inward."
+  },
+  "18": {
+    "speaker": "Narrator",
+    "text": "Hermitude suits you."
+  },
+  "19": {
+    "speaker": "Narrator",
+    "text": "You start making hats."
+  },
+  "20": {
+    "speaker": "Narrator",
+    "text": "You imagine selling them to feed yourself."
+  },
+  "21": {
+    "speaker": "Narrator",
+    "text": "No one buys your hats."
+  },
+  "22": {
+    "speaker": "Narrator",
+    "text": "You starve in the winter of Denton’s fourth term."
+  },
+  "23": {
+    "speaker": "Narrator",
+    "text": "You never find out if things ever get better for Gumtham City."
+  },
+"F": {
+    "speaker": "Narrator",
+    "text": "Starting your journey over, which policy will you push forward?",
+    "options": [
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
+  }
+},
+
 
 
 "B1": {
@@ -554,72 +753,1238 @@
   },
   "2": {
     "speaker": "Narrator",
-    "text": "Let's face it, you're an extra dimensional being who's regular "
+    "text": "Let's face it—you're an extra-dimensional being."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "speaking voice leads to madness in the most fortunate of listeners."
+    "text": "Your regular speaking voice leads to madness in even the most fortunate listeners."
   },
   "4": {
     "speaker": "Narrator",
-    "text": " If you're going to communicate effectively you need to pick your interpreter carefully."
+    "text": "If you're going to communicate effectively, you need to pick your interpreter carefully."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "Someone who knows sign language, but can also bridge the gap of translation in a charming "
+    "text": "Someone who knows sign language, but can also bridge the gap of translation."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "They must be charming, charismatic, and able to maintain the integrity of your platform."
   },
   "7": {
     "speaker": "Narrator",
-    "text": "your first option is Eugene Edwards"
+    "text": "Your first option is Eugene Edwards."
   },
   "F": {
     "speaker": "Narrator",
-    "text": "Which Interpreter will you choose?",
+    "text": "Which interpreter will you choose?",
     "options": [
-    { "route": "B2A", "text": "Eugene Edwards" },
-    { "route": "B3", "text": "Keep Looking" }
-  ]
+      { "route": "B2A", "text": "Eugene Edwards" },
+      { "route": "B3", "text": "Keep Looking" }
+    ]
   }
 },
 
 "B2A": {
-  "bgm": "Getting it Done",
+  "bgm": "Aurea Carmina",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You have selected Eugene Edwards"
+    "text": "You have selected Eugene Edwards."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "Let's face it, you're an extra dimensional being who's regular "
+    "text": "He arrives in a lacquered black town car, driver in white gloves, stepping out with the smug grace of a man who's never opened his own door."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "speaking voice leads to madness in the most fortunate of listeners."
+    "text": "Eugene is a high-end electric toothbrush—sleek, silver-plated, and probably bathed nightly in mineral water and ego."
   },
   "4": {
     "speaker": "Narrator",
-    "text": " If you're going to communicate effectively you need to pick your interpreter carefully."
+    "text": "His bristles are combed back, jacket pressed, and cufflinks flashing a discreet family crest."
   },
   "5": {
-    "speaker": "Narrator",
-    "text": "Someone who knows sign language, but can also bridge the gap of translation in a charming "
+    "speaker": "Eugene",
+    "text": "Big fan of your whole thing. You’ve got that 'mysterious reformer' vibe the press eats up like hard candy."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "He’s flipping through a leather-bound planner, notepad tucked into the band of his hat like he’s playing journalist."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "He speaks fluent sign language, of course—learned at a private summer academy for 'gifted communicators.'"
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "Still, it’s clear he sees this as a stepping stone. You’re a headline, not a cause."
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "Eugene taps the invitation in his coat pocket and raises an eyebrow."
+  },
+  "10": {
+    "speaker": "Eugene",
+    "text": "There’s a Gala tonight. Real power shows up in bowties and borrowed smiles. This is where you turn curiosity into votes."
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "But your gaze drifts to the city beyond the window—the real Gumtham. Brick tenements, sick smoke, and streets that remember every broken promise."
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "The people out there don’t need hors d'oeuvres and handshakes. They need help."
+  },
+  "13": {
+    "speaker": "Narrator",
+    "text": "Eugene senses the hesitation. His voice softens, just barely."
+  },
+  "14": {
+    "speaker": "Eugene",
+    "text": "Look, you want to help the people? Great. But you can't do that without money. And money drinks champagne."
+  },
+  "15": {
+    "speaker": "Narrator",
+    "text": "You consider your next move."
   },
   "F": {
     "speaker": "Narrator",
-    "text": "Which Interpreter will you choose?",
+    "text": "How will you launch your campaign?",
     "options": [
-    { "route": "A1", "text": "Eugene Edwards" },
-    { "route": "B1", "text": "Keep looking" }
-  ]
+      { "route": "B3A", "text": "Go to the Gala" },
+      { "route": "B11A", "text": "Go door-to-door" }
+    ]
+  }
+},
+
+"B3A": {
+  "bgm": "Mesmerizing Galaxy",
+  "background": "gala_interior.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "The ballroom is gilded in gold trim and gaslight glow. Crystalline chandeliers hum with static. The air smells faintly of citrus, champagne, and generational power."
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "Your name echoes across the room—twice. Once in sign, once through Eugene’s voice, amplified and charming, dripping with eloquence he didn’t earn."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "This gala is your official introduction to the political elite of Gumtham. Eugene pulled strings to get you here, and even more to get your candidacy recognized before the ink dried on your intent-to-run paperwork."
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "The press eats it up. 'Mystery Challenger Emerges From the Deep' reads one headline on a floating ticker above the hors d'oeuvres table."
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "You stand beneath a velvet banner reading 'A Brighter Future for Gumtham.' The irony is not lost on you."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "Eugene is in his element. Gleaming chrome casing polished, bristles slicked back. He schmoozes like a prince born in a penthouse and raised by press secretaries."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "He filters your presence into something palatable. Less cosmic horror, more curious reformer. A campaign darling dressed in unknowable truth."
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "That’s when the air shifts. A ripple passes through the crowd like a bad omen in champagne bubbles."
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "King Pin makes his entrance. A cobalt-blue bottle of mouthwash, wearing a custom-tailored suit and a crooked, golden crown. He radiates money, menace, and mint."
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "He makes no effort to hide his interest. You were a myth this morning—by midnight, you're a threat."
+  },
+  "11": {
+    "speaker": "King Pin",
+    "text": "You’re the one shaking things up. I like that."
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "Eugene stiffens beside you, posture suddenly military. He knows King Pin—and not from parties. From damage."
+  },
+  "13": {
+    "speaker": "Eugene",
+    "text": "He’s bad news. Even the elites don’t touch him unless they’re desperate. Walk away. Now."
+  },
+  "14": {
+    "speaker": "King Pin",
+    "text": "Let’s talk. You’ve got passion. I’ve got connections. Together? We could scrub this city clean."
+  },
+  "F": {
+    "speaker": "Narrator",
+    "text": "Do you accept King Pin’s offer?",
+    "options": [
+      { "route": "S1A", "text": "Hear him out" },
+      { "route": "B4A", "text": "Refuse and move on" }
+    ]
+  }
+},
+
+"B4A": {
+  "bgm": "Realizer",
+  "background": "gala_interior.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "King Pin leaves with a chuckle and a warning glance. The room doesn’t breathe again until he’s gone."
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "Eugene fidgets with his cufflink. It's the first time you’ve seen his composure slip."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "“That was... bold,” he mutters, forcing a grin. “Refusing a donor like that? Not many get the chance. Fewer walk away.”"
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "You remain silent. The chandelier above vibrates faintly—perhaps from the music, perhaps from something deeper."
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "Before Eugene can regain his footing, another presence drifts into view: gleaming chrome, clean angles, safety-orange accents. A Safety Razor, dressed like a diplomat, speaks like a surgeon."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "“You made quite the impression,” they say, voice smooth and precise. “We represent the Gumtham Mineral Coalition. We usually back Mayor Denton, but... well, you’ve seen his polling numbers.”"
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "The Razor smiles without lips. “He’s too soft. Too ceremonial. He waves at ribbon-cuttings while our children dig beneath the city for scraps.”"
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "“You, on the other hand… you’re something new. Something people fear a little. That’s useful.”"
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "Eugene leans in. “You can’t be serious,” he hisses. “These people are the ones pushing for child labor waivers—”"
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "“We push for productivity,” the Razor cuts him off, all smile and steel. “Denton is inefficient. But with our support, you won’t just win… you’ll dominate.”"
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "They hand you a velvet envelope. It smells like metal and ambition."
+  },
+  "F": {
+    "speaker": "Narrator",
+    "text": "Do you take the deal?",
+    "options": [
+      { "route": "B10A", "text": "Take the Coalition’s support" },
+      { "route": "B5A", "text": "Refuse the offer and walk away" }
+    ]
+  }
+},
+
+"B5A": {
+  "bgm": "Monkeys Spinning Monkeys",
+  "background": "gala_interior.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "You slide the velvet envelope back across the table. The Safety Razor narrows their gaze, but says nothing."
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "They vanish into the crowd like a shadow dissolving in champagne light."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "Eugene is pale. He loosens his collar. “Okay,” he breathes, “you just turned down the two most powerful donors in the room.”"
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "Before you can respond, a chime rings from the grand staircase. The music dims. A spotlight falls on the Gala’s host as he taps a crystal glass."
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "He’s older. Simpler. A humble, bristle-worn toothbrush with polished wood for a handle and bright, unshakable eyes."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "“To vision,” he says warmly. “To those rare souls who dare to imagine that kindness, not conquest, might guide a city back from ruin.”"
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "The crowd claps politely. You notice a few guests visibly confused by the sentiment."
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "As the clinking subsides, a steward brushes past the crowd and whispers in Eugene’s ear."
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "Eugene’s eyes go wide. He turns to you, blinking fast. “He wants to see you. Personally. Right now.”"
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "You glance across the ballroom. The host lifts his glass slightly in your direction. No smile. Just a quiet nod."
+  },
+  "F": {
+    "speaker": "Narrator",
+    "text": "Do you meet the Gala host?",
+    "options": [
+      { "route": "B5A_Meet", "text": "Approach the host" },
+      { "route": "B5A_Decline", "text": "Decline the invitation" }
+    ]
+  }
+},
+
+"B6A": {
+  "bgm": "The Path of the Goblin King v2",
+  "background": "gumtham_newspaperstand.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "You decline the host’s invitation."
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "Eugene tries to protest, but you’re already walking out of the gala—past champagne flutes and hollow toasts—toward the nearest exit."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "The warm golden lights behind you fade into the night as the cold gutters of Gumtham greet you once again."
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "You’re tired of being handled. Of games played by powerful people who mistake cruelty for leadership."
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "Eugene trails behind in silence, his bowtie crooked, eyes darting. He doesn't understand your choice—but he follows you anyway."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "Election day comes and goes."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "You lose. Badly."
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "Mayor Denton is reinstated. The city celebrates with plastic confetti and tax breaks for mining companies."
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "Two days later, a headline runs: \"**SAFETY RAZOR REVEALED TO BE RUSTY RAZOR: SERIAL KILLER CAUGHT AFTER CAMPAIGN PARTY.**\""
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "The papers show him being dragged into custody—his blade edge cracked and stained."
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "No one seems surprised."
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "But you can’t even feel vindicated. Not when the next day’s edition hits the stand."
+  },
+  "13": {
+    "speaker": "Narrator",
+    "text": "On the cover is a photo of two children."
+  },
+  "14": {
+    "speaker": "Narrator",
+    "text": "A small toothbrush with a propeller cap and his younger brother, a box of floss with one corner ripped open."
+  },
+  "15": {
+    "speaker": "Narrator",
+    "text": "Their tiny faces are smudged with soot. Their bristles frayed. Their eyes hollow."
+  },
+  "16": {
+    "speaker": "Narrator",
+    "text": "**“NEW WORKFORCE HITS THE MINES!”** the headline reads. “**Denton's Child Labor Plan Saves Budget.**”"
+  },
+  "17": {
+    "speaker": "Narrator",
+    "text": "You stare at the paper for a long time. Long enough for the ink to bleed in the rain."
+  },
+  "18": {
+    "speaker": "Narrator",
+    "text": "Long enough to realize there won’t be a second chance."
+  },
+"F": {
+    "speaker": "Narrator",
+    "text": "Starting your journey over, which policy will you push forward?",
+    "options": [
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
+  }
+},
+
+"B7A": {
+  "bgm": "Who Likes to Party",
+  "background": "gala_evening.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "Ivory Frankly, host of the gala and founder of half the public services in Gumtham, has requested to see you."
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "Eugene can hardly contain himself. 'Frankly built the East Wing of City Hall *with* the original mayor—this is unreal.'"
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "You’re escorted to a quiet parlor. Frankly stands at the window, gazing out at the lights of Gumtham."
+  },
+  "4": {
+    "speaker": "Frankly",
+    "text": "You’ve got spine. I like that. Most people melt under King Pin or Rusty Razor."
+  },
+  "5": {
+    "speaker": "Frankly",
+    "text": "But spine isn’t enough. I’ve helped heroes who turned tyrant. Cowards who ruled with silence."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "He nods, and an assistant places two folders in front of you."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "One is stamped SOUTH GUMTHAM ORPHANAGE. The other bears the seal of the Environmental Restoration Council."
+  },
+  "8": {
+    "speaker": "Frankly",
+    "text": "One of these gets funding. Not both. That’s reality."
+  },
+  "9": {
+    "speaker": "Frankly",
+    "text": "Save the orphanage Maggie built. Or stop the runoff poisoning the city’s future."
+  },
+  "10": {
+    "speaker": "Frankly",
+    "text": "You’ll have my support either way. But I want to know what kind of future you’re here to build."
+  },
+  "F": {
+    "speaker": "Narrator",
+    "text": "What do you choose to fund?",
+    "options": [
+      { "route": "B8A", "text": "Save the orphanage" },
+      { "route": "B9A", "text": "Stop the runoff" }
+    ]
+  }
+},
+
+"B8A": {
+  "bgm": "Teddy Bear Waltz",
+  "background": "sunrise_orphanage.jpg",
+  "1": { "speaker": "Narrator", "text": "You chose to save the orphanage." },
+  "2": { "speaker": "Narrator", "text": "When the funding came through, Maggie wept." },
+  "3": { "speaker": "Narrator", "text": "Not with joy, but with relief." },
+  "4": { "speaker": "Narrator", "text": "For the first time in weeks, the children slept warm." },
+  "5": { "speaker": "Narrator", "text": "No more makeshift fires." },
+  "6": { "speaker": "Narrator", "text": "No more counting cans instead of sheep." },
+  "7": { "speaker": "Narrator", "text": "The runoff still poisons the east quarter." },
+  "8": { "speaker": "Narrator", "text": "Fishermen pull up buckets of bones." },
+  "9": { "speaker": "Narrator", "text": "But the children sing again." },
+  "10": { "speaker": "Narrator", "text": "Your term as mayor begins under gray skies." },
+  "11": { "speaker": "Narrator", "text": "You tax the wealthy." },
+  "12": { "speaker": "Narrator", "text": "And they flee—some to the hills, others to Denton’s new estate out west." },
+  "13": { "speaker": "Narrator", "text": "It’s not glamorous, this leadership thing." },
+  "14": { "speaker": "Narrator", "text": "But you build something real." },
+  "15": { "speaker": "Narrator", "text": "Eugene stops combing his bristles every morning." },
+  "16": { "speaker": "Narrator", "text": "He starts volunteering." },
+  "17": { "speaker": "Narrator", "text": "He takes up late-night patrols around the orphanage—just in case." },
+  "18": { "speaker": "Narrator", "text": "One day he calls you 'mayor' and actually means it." },
+  "19": { "speaker": "Narrator", "text": "Frankly sends you a single-word letter: 'Good.'" },
+  "20": { "speaker": "Narrator", "text": "You frame it." },
+  "21": { "speaker": "Narrator", "text": "The runoff still creeps." },
+  "22": { "speaker": "Narrator", "text": "But the city’s budget stabilizes under your reforms." },
+  "23": { "speaker": "Narrator", "text": "And next time, there *will* be enough to do both." },
+  "24": { "speaker": "Narrator", "text": "The children march in your second inauguration parade, holding signs that say 'Thank you.'" },
+  "25": { "speaker": "Narrator", "text": "A small one tugs your sleeve and asks if monsters cry." },
+  "26": { "speaker": "Narrator", "text": "You tell them yes." },
+  "27": { "speaker": "Narrator", "text": "And today, only a little." },
+"F": {
+    "speaker": "Narrator",
+    "text": "Starting your journey over, which policy will you push forward?",
+    "options": [
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
+  }
+},
+
+"B9A": {
+  "bgm": "Death of Kings",
+  "background": "rainy_graveyard.jpg",
+  "1": { "speaker": "Narrator", "text": "You chose to stop the runoff." },
+  "2": { "speaker": "Narrator", "text": "The city's water runs clean now." },
+  "3": { "speaker": "Narrator", "text": "But the budget couldn't stretch far enough to save the orphanage." },
+  "4": { "speaker": "Narrator", "text": "It collapsed." },
+  "5": { "speaker": "Narrator", "text": "First figuratively, then literally." },
+  "6": { "speaker": "Narrator", "text": "The building caught fire during an unlicensed winter heating attempt." },
+  "7": { "speaker": "Narrator", "text": "The children inside never stood a chance." },
+  "8": { "speaker": "Narrator", "text": "You win the election in a landslide." },
+  "9": { "speaker": "Narrator", "text": "Eugene is by your side, smiling for photos with a hollow look in his eyes." },
+  "10": { "speaker": "Narrator", "text": "Your term brings results." },
+  "11": { "speaker": "Narrator", "text": "Lowered crime." },
+  "12": { "speaker": "Narrator", "text": "Clean air." },
+  "13": { "speaker": "Narrator", "text": "Stable power." },
+  "14": { "speaker": "Narrator", "text": "Gumtham begins to work again." },
+  "15": { "speaker": "Narrator", "text": "But something in the city stays broken." },
+  "16": { "speaker": "Narrator", "text": "You feel it in the way people avoid your gaze." },
+  "17": { "speaker": "Narrator", "text": "Frankly never contacts you again." },
+  "18": { "speaker": "Narrator", "text": "He leaves a handwritten note." },
+  "19": { "speaker": "Narrator", "text": "'Next time, tax them before the blood dries.'" },
+  "20": { "speaker": "Narrator", "text": "Denton vanishes." },
+  "21": { "speaker": "Narrator", "text": "No trial." },
+  "22": { "speaker": "Narrator", "text": "No scandal." },
+  "23": { "speaker": "Narrator", "text": "Weeks later, the Gumtham Gazette buries a story." },
+  "24": { "speaker": "Narrator", "text": "'Former Mayor Found Dismembered in Storm Drain – No Suspects.'" },
+  "25": { "speaker": "Narrator", "text": "A peppermint-scented envelope arrives at your office." },
+  "26": { "speaker": "Narrator", "text": "Inside, a photo of Denton's body." },
+  "27": { "speaker": "Narrator", "text": "And a note." },
+  "28": { "speaker": "Narrator", "text": "'Justice is minty fresh.'" },
+  "29": { "speaker": "Narrator", "text": "You visit the orphanage site once." },
+  "30": { "speaker": "Narrator", "text": "It's now a memorial." },
+  "31": { "speaker": "Narrator", "text": "Charred bricks." },
+  "32": { "speaker": "Narrator", "text": "Wildflowers." },
+  "33": { "speaker": "Narrator", "text": "A mass grave marker." },
+  "34": { "speaker": "Narrator", "text": "Among the faces on a scorched bulletin board is Maggie's." },
+  "35": { "speaker": "Narrator", "text": "A note below reads." },
+  "36": { "speaker": "Narrator", "text": "'She tried to keep them warm.'" },
+  "37": { "speaker": "Narrator", "text": "You wonder what life would have been like if you'd chosen her." },
+  "38": { "speaker": "Narrator", "text": "The wind howls like regret." },
+  "39": { "speaker": "Narrator", "text": "The city sleeps." },
+  "40": { "speaker": "Narrator", "text": "Somewhere, a vigilante sharpens their smile." },
+"F": {
+    "speaker": "Narrator",
+    "text": "Starting your journey over, which policy will you push forward?",
+    "options": [
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
+  }
+},
+
+"B10A": {
+  "bgm": "Disco con Tutti",
+  "background": "tax_background.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "You take the deal."
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "A handshake behind velvet curtains. Eugene doesn't say a word—just looks away as your name is etched into victory."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "The mining coalition funds your campaign so thoroughly Denton barely bothers to show up to the debates."
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "Your silence—once powerful—becomes a joke among pundits, but the money drowns them out."
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "You win in a landslide. You’ve never felt smaller."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "Months into your term, the headlines start coming in."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "“Rusty Razor” Found at Scene of Child Slayings — Coalition Exec Implicated."
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "Turns out the safety razor that offered you the deal wasn’t just morally dull—he was sharp in all the wrong ways."
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "He used the child labor contracts you approved to get close to the kids."
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "They worked deep in the mines. No one hears screams over drills and darkness."
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "One day, a mine collapses. That’s how they find the bodies."
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "Twenty-three child workers. Twenty-two accounted for. One too many."
+  },
+  "13": {
+    "speaker": "Narrator",
+    "text": "Eugene shows you a paper one morning. His hands are trembling."
+  },
+  "14": {
+    "speaker": "Narrator",
+    "text": "On the cover: a battered toothbrush boy in a propeller hat, and his brother—a cracked box of floss—dirt-caked and bleeding."
+  },
+  "15": {
+    "speaker": "Narrator",
+    "text": "“This… this was supposed to be different.”"
+  },
+  "16": {
+    "speaker": "Narrator",
+    "text": "You try to speak. But no words come out."
+  },
+  "17": {
+    "speaker": "Narrator",
+    "text": "The same mouth that won the war now swallows every bitter truth."
+  },
+  "18": {
+    "speaker": "Narrator",
+    "text": "You made the wrong deal. And Gumtham’s children paid the price."
+  },
+  "19": {
+    "speaker": "Narrator",
+    "text": "And somewhere in the dark, the Razor laughs."
+  },
+"F": {
+    "speaker": "Narrator",
+    "text": "Starting your journey over, which policy will you push forward?",
+    "options": [
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
+  }
+},
+
+"B11A": {
+  "bgm": "Disco Medusae",
+  "background": "soup_kitchen.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "You decide to begin where Gumtham hurts the most: the soup kitchen beneath the overpass, where recovering clove addicts line up for heat and humanity."
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "The rain is constant. The food is always hot. The volunteers are too tired to judge anyone."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "Eugene arrives with a scarf over his chrome casing, holding a handkerchief to his bristles like the very air might tarnish him."
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "“You brought me here?” he says. “This isn’t... a photo op.”"
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "You sign slowly. *That’s exactly the point.*"
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "He watches a hollow-eyed toothbrush with cracked enamel cradle a dented thermos of broth like it’s sacred."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "“They’re addicts,” Eugene mutters, more to himself than to you. “They made choices.”"
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "You don’t argue. Instead, you offer him a choice."
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "Because maybe the real campaign isn’t about swaying voters—maybe it’s about saving a single person’s soul at a time."
+  },
+  "F": {
+    "speaker": "Narrator",
+    "text": "How will you help Eugene connect?",
+    "options": [
+      { "route": "B12A", "text": "Share your own scars" },
+      { "route": "B13A", "text": "Let him observe in silence" }
+    ]
+  }
+},
+"B12A": {
+  "bgm": "Unity",
+  "background": "soup_kitchen.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "You sign your truth slowly. Not as a speech. As a confession."
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "You share what it meant to lose your home, your voice, your kin to the city’s indifference."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "How long you floated beneath Gumtham, unseen, unspeakable, uninvited."
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "How silence became survival."
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "Eugene stares at you. No retorts. No notes. Just stillness."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "“You really... you really believe this city can change, huh?” he says softly."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "He wipes at his eye with the back of his bristles. His first tear in years."
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "Then the moment breaks."
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "Two officers arrive on squealing tires—one a pig-nosed green bar of soap, the other a grizzled pumice stone with an unlit cigar embedded in his chin."
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "“Soup’s over,” grunts the pumice cop. “This site’s not compliant with Denton’s Sanitation Clause 14-B.”"
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "The pig-nosed one snorts and yells at the volunteers to disperse."
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "The addicts are too slow. Some get pushed. One is kicked."
+  },
+  "13": {
+    "speaker": "Narrator",
+    "text": "Then come the orphan buses."
+  },
+  "14": {
+    "speaker": "Narrator",
+    "text": "Rust-red wagons with steel bars instead of windows. Children—bristleless, blank-eyed—herded inside without protest."
+  },
+  "15": {
+    "speaker": "Pumice Cop",
+    "text": "Denton’s new labor initiative."
+  },
+  "16": {
+    "speaker": "Narrator",
+    "text": "Eugene watches in horror as a young brush clutches a wooden spoon like it’s a sword."
+  },
+  "17": {
+    "speaker": "Narrator",
+    "text": "He looks at you. Not for direction, but for something more terrifying—permission to feel."
+  },
+  "F": {
+    "speaker": "Narrator",
+    "text": "You both say nothing. But something’s changed in him.",
+    "options": [
+      { "route": "B14A", "text": "Continue your campaign" },
+      { "route": "B15A", "text": "Confront City Hall" }
+    ]
+  }
+},
+
+"B13A": {
+  "bgm": "SCP7",
+  "background": "soup_kitchen.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "You try to help Eugene connect with the patrons of the soup kitchen, but your words come out tangled—too abstract, too distant."
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "He nods along but doesn't understand. His posture is stiff, his eyes dart around like he's being stalked."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "When he finally speaks, it's worse than silence."
+  },
+  "4": {
+    "speaker": "Eugene",
+    "text": "\"I mean, isn't it kind of their fault for getting hooked on clove in the first place?\""
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "The entire kitchen freezes. Then someone snorts. Then laughs. Then the room erupts."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "\"Go back to your golden cabinet, Chrome Dome!\" someone yells."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "“Silver spoon’s talkin’ about spoons,” mutters a woman stirring broth with a chipped ladle."
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "Eugene stammers, flushes. \"I— I didn’t mean— I’m trying to—\""
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "You reach toward him, but he steps back like your presence burns."
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "\"This isn’t working,\" he says. \"I’m clearly not what you need.\""
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "He turns on his heel and storms out of the soup kitchen. No translation. No apology. Just shame and the sound of laughter trailing behind him."
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "You're left alone. The patrons return to their bowls, their silence louder than the mockery that preceded it."
+  },
+  "F": {
+    "speaker": "Narrator",
+    "text": "Do you chase after Eugene? Or let him go?",
+    "options": [
+      { "route": "B18A", "text": "Go after him" },
+      { "route": "B19A", "text": "Let him leave" }
+    ]
+  }
+},
+
+"B14A": {
+  "bgm": "Political Ad",
+  "background": "debate_empty.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "You focus on your campaign, choosing not to escalate things at City Hall."
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "You tell yourself you'll make changes after you're elected. If you're elected."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "The soup kitchen never fully reopens. Its regulars vanish, slowly."
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "Some to new arrests. Some to old habits. Some just... gone."
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "Parents, strung out or screaming, are too busy fighting for their children to attend rallies."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "Those not caught up in the chaos use clove to forget they live in Gumtham at all."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "Debate night arrives. The hall is half-empty."
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "Those in attendance sneer when you enter. You don’t see a single familiar face."
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "Eugene stands beside you, hands shaking. He doesn’t know who he’s interpreting for anymore."
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "Mayor Denton introduces the new head of Mint Street's labor commission."
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "The Safety Razor, all edges and arrogance, shakes hands with the mayor as cameras flash."
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "Later that night, a body is found floating in a canal downtown."
+  },
+  "13": {
+    "speaker": "Narrator",
+    "text": "They call it a suicide, but everyone recognizes the mask. Minty Vigilantee is gone."
+  },
+  "14": {
+    "speaker": "Narrator",
+    "text": "Flyers appear the next morning. MISSING: PEPPER. Last seen with Detective Nick Fluoride."
+  },
+  "15": {
+    "speaker": "Narrator",
+    "text": "You and Eugene sit in your campaign office as the sun rises through gray fog."
+  },
+  "16": {
+    "speaker": "Narrator",
+    "text": "No victory speech. No crowd. Just dust. And silence."
+  },
+  "17": {
+    "speaker": "Narrator",
+    "text": "You start planning for the next election."
+  },
+  "18": {
+    "speaker": "Narrator",
+    "text": "The lights in Gumtham dim a little more every night."
+  },
+"F": {
+    "speaker": "Narrator",
+    "text": "Starting your journey over, which policy will you push forward?",
+    "options": [
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
+  }
+},
+
+"B15A": {
+  "bgm": "Burn The World Waltz",
+  "background": "city_hall.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "City Hall looms ahead, its limestone walls weathered like they’ve been lying for a hundred years."
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "A crowd of protesters has gathered, holding signs in every language Gumtham speaks—including the hands-only kind."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "Chants rise like smoke. 'No kids in mines!' 'Soap kills hope!' 'Clove is not a cure!'"
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "Officer Lye-ar stands smugly at the edge of the stairs, his pig-snout twitching under the glare of the gas lamps."
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "The crowd parts as Mayor Denton steps forward—polished plastic grin gleaming, sleeves rolled up like he’s done a day’s labor in his life."
+  },
+  "6": {
+    "speaker": "Mayor Denton",
+    "text": "“My fellow Gumthamites,” he begins, tone syrupy enough to choke. “Our children aren’t slaves—they’re patriots. And nothing builds character like swinging a pickaxe before breakfast!”"
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "The crowd roars. Not in approval."
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "You see him. A blue glint in the distance. Kingpin watches from a balcony, one gold crown spike glinting beneath his hat."
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "He doesn’t speak. But the fact he’s here says enough."
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "You step forward, raising your hands to sign."
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "But before you can begin, Eugene gently lowers your wrist with one gloved hand."
+  },
+  "12": {
+    "speaker": "Eugene",
+    "text": "“Let me try,” he says, voice steady. “Not as your translator. As your partner.”"
+  },
+  "13": {
+    "speaker": "Narrator",
+    "text": "You search his eyes. The crowd waits. The city waits."
+  },
+  "F": {
+    "speaker": "Narrator",
+    "text": "Do you let Eugene speak for himself?",
+    "options": [
+      { "route": "B16A", "text": "Let Eugene speak" },
+      { "route": "B17A", "text": "Stick to the message" }
+    ]
+  }
+},
+
+"B16A": {
+  "bgm": "Electro Cabello",
+  "background": "city_hall.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "The crowd murmurs as Eugene takes a step forward. His voice cuts through the noise like a silver bell at a funeral."
+  },
+  "2": {
+    "speaker": "Eugene",
+    "text": "“I was raised to believe some people mattered more than others.”"
+  },
+  "3": {
+    "speaker": "Eugene",
+    "text": "“That some people belonged to the world and others just survived in it.”"
+  },
+  "4": {
+    "speaker": "Eugene",
+    "text": "“I was wrong.”"
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "The signs stop waving. The chants fall silent. Even Officer Lye-ar leans in."
+  },
+  "6": {
+    "speaker": "Eugene",
+    "text": "“I met someone who doesn’t speak with a voice, but who speaks in action, and truth, and terrifying beauty.”"
+  },
+  "7": {
+    "speaker": "Eugene",
+    "text": "“And I’ve seen a city choking on its own cruelty.”"
+  },
+  "8": {
+    "speaker": "Eugene",
+    "text": "“We can’t clean Gumtham by burying its children in soot.”"
+  },
+  "9": {
+    "speaker": "Eugene",
+    "text": "“We can’t be better if we keep letting the worst people lead us.”"
+  },
+  "10": {
+    "speaker": "Eugene",
+    "text": "“We have to believe each other matter—”"
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "*CRACK.*"
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "The sound echoes across the stone facade."
+  },
+  "13": {
+    "speaker": "Narrator",
+    "text": "Eugene stumbles."
+  },
+  "14": {
+    "speaker": "Narrator",
+    "text": "He blinks. Blood seeps from the chrome at his side. He tries to smile through the pain."
+  },
+  "15": {
+    "speaker": "Eugene",
+    "text": "“...”"
+  },
+  "16": {
+    "speaker": "Narrator",
+    "text": "He collapses."
+  },
+  "17": {
+    "speaker": "Narrator",
+    "text": "The crowd erupts in chaos. Lye-ar yells for backup. Protesters scream. Someone tries to help. Someone else points to the rooftops."
+  },
+  "18": {
+    "speaker": "Narrator",
+    "text": "And you…"
+  },
+  "19": {
+    "speaker": "Narrator",
+    "text": "You don’t know what to do."
+  },
+  "20": {
+    "speaker": "Narrator",
+    "text": "For all your power. All your resolve. For all your infinite eyes—"
+  },
+  "21": {
+    "speaker": "Narrator",
+    "text": "You don’t know what to do."
+  },
+"F": {
+    "speaker": "Narrator",
+    "text": "Starting your journey over, which policy will you push forward?",
+    "options": [
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
+  }
+},
+
+"B17A": {
+  "bgm": "Fight",
+  "background": "city_hall.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "You place a hand—tentacle, technically—on Eugene’s shoulder before he can speak."
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "He stops. Eyes wide. You shake your head. Gently."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "This isn’t about doubt. This is strategy. This is trust."
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "You begin to sign. Slowly. Deliberately. Eugene translates."
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "The crowd watches, silent. A few faces light up."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "You call out names. You *know* these people. From the soup kitchen."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "From the clean-up projects. From PTA meetings in crumbling schools."
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "This isn’t a campaign. It’s a reunion."
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "People don’t cheer. They nod. They hold each other."
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "One child whispers your name."
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "Eugene translates, voice cracking—but never faltering."
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "The debate hall is packed when the night arrives."
+  },
+  "13": {
+    "speaker": "Narrator",
+    "text": "So packed the doors remain open. A crowd spills into the streets."
+  },
+  "14": {
+    "speaker": "Narrator",
+    "text": "You and Eugene dismantle Denton with every question. Every policy."
+  },
+  "15": {
+    "speaker": "Narrator",
+    "text": "Every name you remember."
+  },
+  "16": {
+    "speaker": "Narrator",
+    "text": "The people turn out. You win."
+  },
+  "17": {
+    "speaker": "Narrator",
+    "text": "But victory is cold."
+  },
+  "18": {
+    "speaker": "Narrator",
+    "text": "By the time you raise levies to fund recovery, the wealthy have already vanished."
+  },
+  "19": {
+    "speaker": "Narrator",
+    "text": "Gone to islands and coasts far from Gumtham. Gone with their tax dollars."
+  },
+  "20": {
+    "speaker": "Narrator",
+    "text": "The city shrivels. Hospitals close. Clove addicts flood shelters."
+  },
+  "21": {
+    "speaker": "Narrator",
+    "text": "The orphanage—almost closes."
+  },
+  "22": {
+    "speaker": "Narrator",
+    "text": "Until Eugene returns. Not just with funds. But with Frankly."
+  },
+  "23": {
+    "speaker": "Narrator",
+    "text": "Frankly, the old toothbrush philanthropist, launches the Community Mutual Infrastructure Trust (CMIT)."
+  },
+  "24": {
+    "speaker": "Narrator",
+    "text": "A non-profit network backed by a handful of ethical investors."
+  },
+  "25": {
+    "speaker": "Narrator",
+    "text": "They don’t restore Gumtham overnight. But they stop the bleeding."
+  },
+  "26": {
+    "speaker": "Narrator",
+    "text": "Enough to reopen the orphanage. Enough to fund education."
+  },
+  "27": {
+    "speaker": "Narrator",
+    "text": "Enough to keep hope alive."
+  },
+  "28": {
+    "speaker": "Narrator",
+    "text": "Your re-election is quieter. But this time, it feels earned."
+  },
+  "29": {
+    "speaker": "Narrator",
+    "text": "One city. Still broken. Still reeling. But breathing."
+  },
+"F": {
+    "speaker": "Narrator",
+    "text": "Starting your journey over, which policy will you push forward?",
+    "options": [
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
+  }
+},
+
+"B19A": {
+  "bgm": "Move Forward",
+  "background": "soup_kitchen_empty.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "You don't follow him."
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "You stay behind. Pull your apron tighter. Pick up a ladle."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "There are mouths to feed. Even if they don’t believe in you. Even if you’re not running anymore."
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "You stir, pour, clean, repeat. Morning to night. You don’t sign. There’s no one to translate."
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "Posters for Mayor Denton’s re-election plaster the windows. Safety Razor smiles beside him, promising “work for all ages.”"
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "Fewer patrons arrive with each passing day."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "Some are arrested. Others vanish. One leaves a note that just reads: 'Thanks for the soup. Sorry about the city.'"
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "You serve empty bowls to empty chairs out of habit."
+  },
+  "9": {
+    "speaker": "Narrator",
+    "text": "Eventually, even the stove goes cold."
+  },
+  "10": {
+    "speaker": "Narrator",
+    "text": "No one comes in that day. Or the next."
+  },
+  "11": {
+    "speaker": "Narrator",
+    "text": "The city groans above you like a throat trying not to choke."
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "You sit on a milk crate, ladle in hand, and wonder how many lives you could have changed if only you'd said something sooner."
+  },
+  "13": {
+    "speaker": "Narrator",
+    "text": "You are alone. Again."
+  },
+"F": {
+    "speaker": "Narrator",
+    "text": "Starting your journey over, which policy will you push forward?",
+    "options": [
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
   }
 },
 
@@ -628,118 +1993,133 @@
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You have chosen to keep looking"
+    "text": "You have chosen to keep looking."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "Your Second option is Margaret Wood"
+    "text": "Your second option is Margaret Wood."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "Margaret Wood is a toothpick who has been a lifelong activist in her community. "
+    "text": "Margaret is a toothpick who has been a lifelong activist in her community."
   },
   "4": {
     "speaker": "Narrator",
-    "text": "She learned Sign Language in order to help mute orphans who had been traumatized over the loss of their parents."
+    "text": "She learned sign language to help mute orphans traumatized by the loss of their parents."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "She has connections in local communities, but is a bit of a hot head due to their passionate disposition against Mayor Denton’s platform this election. "
+    "text": "Her compassion is legendary, and her presence is commanding at every town hall she attends."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "She has deep roots in local communities."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "However, she can be a bit of a hothead due to her passionate stance against Mayor Denton's platform."
   },
   "F": {
     "speaker": "Narrator",
-    "text": "Which Interpreter will you choose?",
+    "text": "Which interpreter will you choose?",
     "options": [
-    { "route": "B2B", "text": "Margaret Wood" },
-    { "route": "B4", "text": "Keep Looking" }
-  ]
+      { "route": "B2B", "text": "Margaret Wood" },
+      { "route": "B4", "text": "Keep Looking" }
+    ]
   }
 },
+
 
 "B4": {
   "bgm": "Captain Scurvy",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You have  chosen to keep looking"
+    "text": "You have chosen to keep looking."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "Your third option is Dr. Mimi Strings"
+    "text": "Your third option is Dr. Mimi Strings."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "speaking voice leads to madness in the most fortunate of listeners."
+    "text": "Dr. Strings is a dentist-turned-interpreter with a PhD in metaphysical phonetics."
   },
   "4": {
     "speaker": "Narrator",
-    "text": " If you're going to communicate effectively you need to pick your interpreter carefully."
+    "text": "Her research focuses on decoding ancient utterances that melt the minds of mortals."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "Someone who knows sign language, but can also bridge the gap of translation in a charming "
+    "text": "She’s fluent in 47 dialects of sign language, including three that don’t officially exist."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "She has charm, charisma, and an uncanny ability to maintain message integrity."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "Some say she once translated a dream into legislation."
   },
   "F": {
     "speaker": "Narrator",
-    "text": "Which Interpreter will you choose?",
+    "text": "Which interpreter will you choose?",
     "options": [
-    { "route": "B2C", "text": "Dr. Mimi Strings" },
-    { "route": "B5", "text": "Start your search over" }
-  ]
+      { "route": "B2C", "text": "Dr. Mimi Strings" },
+      { "route": "B5", "text": "Start your search over" }
+    ]
   }
 },
+
 
 "B5": {
   "bgm": "Captain Scurvy",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You have chosen to keep looking"
+    "text": "You have chosen to keep looking."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "You review available options starting from the top."
+    "text": "You review the available options, starting from the top."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "your first option is Eugene Edwards"
+    "text": "Your first option is Eugene Edwards."
   },
   "4": {
     "speaker": "Narrator",
-    "text": " If you're going to communicate effectively you need to pick your interpreter carefully."
+    "text": "If you're going to communicate effectively, you need to pick your interpreter carefully."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "Someone who knows sign language, but can also bridge the gap of translation in a charming "
+    "text": "Someone who knows sign language, but can also bridge the gap of translation in a charming and charismatic way."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "And they must maintain the integrity of your platform."
   },
   "F": {
     "speaker": "Narrator",
-    "text": "Which Interpreter will you choose?",
+    "text": "Which interpreter will you choose?",
     "options": [
-    { "route": "B2A", "text": "Eugene Edwards" },
-    { "route": "B3", "text": "Keep Looking" }
-  ]
+      { "route": "B2A", "text": "Eugene Edwards" },
+      { "route": "B3", "text": "Keep Looking" }
+    ]
   }
 },
+
 
 "B2B": {
   "bgm": "Getting it Done",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You have  chosen Maggie Wood"
+    "text": "You have chosen Maggie Wood."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "Margaret actually goes by “Maggie” usually."
+    "text": "Margaret actually goes by 'Maggie' usually."
   },
   "3": {
     "speaker": "Narrator",
@@ -747,15 +2127,15 @@
   },
   "4": {
     "speaker": "Narrator",
-    "text": "Luckily Maggie has experience organizing grassroots campaigns and spreading awareness via word of mouth. "
+    "text": "Luckily, Maggie has experience organizing grassroots campaigns and spreading awareness via word of mouth."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "As debate night draws closer, you're organizing papers in your office realizing just how much you appreciate Maggie"
+    "text": "As debate night draws closer, you're organizing papers in your office, realizing just how much you appreciate Maggie—"
   },
   "6": {
     "speaker": "Narrator",
-    "text": "when a figure crashes through your window. "
+    "text": "when a figure crashes through your window."
   },
   "7": {
     "speaker": "Narrator",
@@ -765,30 +2145,31 @@
     "speaker": "Narrator",
     "text": "What will you do?",
     "options": [
-    { "route": "B3B", "text": "Shout at the assailant" },
-    { "route": "B4B", "text": "Look for other options" }
-  ]
+      { "route": "B3B", "text": "Shout at the assailant" },
+      { "route": "B4B", "text": "Look for other options" }
+    ]
   }
 },
+
 
 "B3B": {
   "bgm": "Destiny Day",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You have  chosen to shout at the assailant"
+    "text": "You have chosen to shout at the assailant."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "Maggie comes running into your office in response to hearing the glass shatter.  "
+    "text": "Maggie comes running into your office in response to hearing the glass shatter."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "You don't have time to stop yourself from telling the assassin "
+    "text": "You don't have time to stop yourself from telling the assassin—"
   },
   "4": {
     "speaker": "Narrator",
-    "text": "“𝔇̷̡̨̛̲͕̗̠̬̩̲̼̗͒͂̽̔̔̓̎̾́̈́̐͝𝔬̴̡͖̻̰͕͕̰͕͇̘͙͊̈́̓̋͆̋̽̑͆́̏͊͂͘𝔫̵̢̨̛̖̠̪͓̠̯͈̘͓̺̺̈́̌̿̄͗̀̀̽̏̆͂̕͝'̴̢̡̙̖̜̬̩̻̏͌̎͂͆̀̇͒͆̔̿̕̕͜͠𝔱̶̢̥̦̤̘̰̙̖̝̻̾̽̿̎̈́̽̀̈́̍̀͘͘͘͝ ̴̛̤̹̟͙͖͍̗̯̠̼̄̏̈́̌̽̋̊͆̌̑̕̚͜𝔰̴̨̪̯͉̜̘̙͚̦͙̯͓̘͍̋̓͗͊͗̌̓̆̑̎̾̈́͘͘𝔥̸̛͉̜̜͖̜̳̼͚̻̲̺̦̾̒̒̎̊̇̎̆̅̚̕̚𝔬̷̡̢̛̥̼̯̪̖͈̬͎͎̠̍͋͑̏̒̿̎̏̕̕͜͝͝𝔬̶̡̲̱̺̦̥̯̼͎͎̺̥̍͊̑̏̌̈́̅̈́̓̚͠͠𝔱̶̡̛̞̦͕͉̟̗̩̺̖͖̟̯̜͊̋̏̎̍͌̌̾̏̊̄͋͘” "
+    "text": "“𝔇̷̛̝̼͒͂̽̔̔̓𝔬̴̡͕͊̈́̓͂͘𝔫̵̛̘̺̈́̌̿͗̀͝'̴̢̙͆̇̒͆̕̕𝔱̶̘̽̍͘͘͝𝔰̴͎̙̋͊͗͊͗𝔥̸̛̜̇̅̕̚͜𝔬̷̛͕̬̍͋͝𝔬̶̲̺̅̈́̓̚𝔱̶̛̖̏̎̍͘”"
   },
   "5": {
     "speaker": "Narrator",
@@ -796,167 +2177,186 @@
   },
   "6": {
     "speaker": "Narrator",
-    "text": "The assassin's head pops like a abscess. Leaving your office a red mess."
+    "text": "The assassin's head pops like an abscess, leaving your office a red mess."
   },
   "7": {
     "speaker": "Narrator",
-    "text": "Terrified you turn towards the door slowly, not ready to take in the damage you'll have inflicted on Maggie. "
+    "text": "Terrified, you turn toward the door slowly, not ready to take in the damage you may have inflicted on Maggie."
   },
   "8": {
     "speaker": "Narrator",
-    "text": "Shockingly, Maggie is perfectly fine, her expression a little startled but after "
+    "text": "Shockingly, Maggie is perfectly fine—her expression a little startled."
   },
   "9": {
     "speaker": "Narrator",
-    "text": "You feel the ice inside of you thaw and you pull Maggie into a tight embrace."
+    "text": "You feel the ice inside of you thaw and pull Maggie into a tight embrace."
   },
   "10": {
     "speaker": "Narrator",
-    "text": "Debate night comes and Maggie fails to curtail her passion against Mayor Denton's child labor platform."
+    "text": "Debate night comes, and Maggie fails to curtail her passion against Mayor Denton's child labor platform."
   },
   "11": {
     "speaker": "Narrator",
-    "text": "It costs you the election but you don't care this is the first time you feel as if you can truly open up to someone."
+    "text": "It costs you the election, but you don't care."
   },
   "12": {
     "speaker": "Narrator",
-    "text": "You open up an orphanage for mute children with Maggie, hoping to still make some good in the world while claiming a little bit of it for yourself. "
+    "text": "This is the first time you feel as if you can truly open up to someone."
   },
   "13": {
     "speaker": "Narrator",
-    "text": "You still lie awake late at night sometimes however."
+    "text": "You open an orphanage for mute children with Maggie."
   },
   "14": {
     "speaker": "Narrator",
-    "text": "Unsure of whether or not you could have made a bigger impact at helping the citizens of Gumtham. "
+    "text": "You hope to still do some good in the world while claiming a little bit of it for yourself."
   },
   "15": {
     "speaker": "Narrator",
-    "text": "Worry about the price of your choice and who will pay it looms constantly in the back of your mind. "
+    "text": "You still lie awake late at night sometimes, however."
   },
   "16": {
     "speaker": "Narrator",
-    "text": "But at least for one brief moment, someone was there to hear you sing."
+    "text": "You're unsure whether you could have made a bigger impact helping the citizens of Gumtham."
   },
-  "F": {
+  "17": {
     "speaker": "Narrator",
-    "text": "Which Interpreter will you choose?",
+    "text": "Worry about the price of your choice—and who will pay it—looms constantly in the back of your mind."
+  },
+  "18": {
+    "speaker": "Narrator",
+    "text": "But at least, for one brief moment, someone was there to hear you sing."
+  },
+"F": {
+    "speaker": "Narrator",
+    "text": "Starting your journey over, which policy will you push forward?",
     "options": [
-    { "route": "A1", "text": "War on Clove" },
-    { "route": "B1", "text": "Tax the Wealthy" }
-  ]
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
   }
 },
+
 
 "B4B": {
   "bgm": "Captain Scurvy",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "There's a pistol under your desk"
+    "text": "There's a pistol under your desk."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "Let's face it, you're an extra dimensional being who's regular "
+    "text": "Your many limbs twitch as the assailant levels their weapon at you."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "speaking voice leads to madness in the most fortunate of listeners."
+    "text": "You consider your next move carefully."
   },
   "4": {
     "speaker": "Narrator",
-    "text": " If you're going to communicate effectively you need to pick your interpreter carefully."
+    "text": "You're an extra-dimensional being, after all."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "Someone who knows sign language, but can also bridge the gap of translation in a charming "
+    "text": "Your voice alone can drive even the fortunate to madness."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "Violence may be the cleanest path forward... but it isn’t the only one."
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "You lock eyes with the figure before you, their pistol trembling slightly."
+  },
+  "8": {
+    "speaker": "Narrator",
+    "text": "And your tentacle brushes against the handle beneath your desk."
   },
   "F": {
     "speaker": "Narrator",
     "text": "What will you do?",
     "options": [
-    { "route": "B5B", "text": "Whip out the Nine" },
-    { "route": "B7B", "text": "Look for other options" }
-  ]
+      { "route": "B5B", "text": "Whip out the Nine" },
+      { "route": "B7B", "text": "Look for other options" }
+    ]
   }
 },
+
 
 "B5B": {
   "bgm": "Fight",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You whip out the nine"
+    "text": "You whip out the nine."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "You manage to beat the assassin to the draw, killing him with the revolver you had under your desk."
+    "text": "You beat the assassin to the draw, firing your revolver from beneath the desk."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "His blood splatters across your face and suit, marking you in red. Maggie runs in. "
+    "text": "The shot is clean. The body collapses in a heap."
   },
   "4": {
     "speaker": "Narrator",
-    "text": " Together the two of you wait for the authorities in anxious silence."
+    "text": "Blood sprays across your face and suit, staining them a deep red."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "They can't offer much in investigation."
+    "text": "Maggie bursts into the room, eyes wide, but saying nothing."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "They do assign a single officer for security."
+    "text": "You both wait for the authorities in heavy, anxious silence."
   },
   "7": {
     "speaker": "Narrator",
-    "text": "At least until debate night."
+    "text": "The investigation offers little."
   },
   "8": {
     "speaker": "Narrator",
-    "text": "And they let you know one more thing."
+    "text": "They assign a single officer to protect you until debate night."
   },
   "9": {
     "speaker": "Narrator",
-    "text": "A note was found inside the jacket pocket of your hitman. "
+    "text": "Before leaving, the officer hands you a note recovered from the assassin."
   },
   "10": {
     "speaker": "Narrator",
-    "text": "Most of it unreadable due to blood stains."
+    "text": "It’s soaked in blood, most of the writing rendered illegible."
   },
   "11": {
     "speaker": "Narrator",
-    "text": "But you can make out the name of who signed it. "
+    "text": "But one part remains clear."
   },
   "12": {
     "speaker": "Narrator",
-    "text": "-King"
+    "text": "The signature at the bottom reads simply: “–King.”"
   },
   "13": {
     "speaker": "Narrator",
-    "text": "The choice is left to you."
+    "text": "You sit with the note, your thoughts spiraling."
   },
   "14": {
     "speaker": "Narrator",
-    "text": "Either focus on your campaign,"
+    "text": "Focus on your campaign, or dig into this assassination attempt?"
   },
   "15": {
     "speaker": "Narrator",
-    "text": "Or find your would be assassin's employer."
+    "text": "The choice is yours."
   },
   "F": {
     "speaker": "Narrator",
-    "text": "Which Interpreter will you choose?",
+    "text": "What will you do?",
     "options": [
-    { "route": "B9B", "text": "The election must come first" },
-    { "route": "B10B", "text": "Get to the bottom of this" }
-  ]
+      { "route": "B9B", "text": "The election must come first" },
+      { "route": "B10B", "text": "Get to the bottom of this" }
+    ]
   }
 },
+
 
 
 "B6B": {
@@ -964,37 +2364,43 @@
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You could run out of the office..."
+    "text": "You consider fleeing."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "Let's face it, you're an extra dimensional being who's regular "
+    "text": "The door is right there."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "speaking voice leads to madness in the most fortunate of listeners."
+    "text": "But running doesn't always mean cowardice."
   },
   "4": {
     "speaker": "Narrator",
-    "text": " If you're going to communicate effectively you need to pick your interpreter carefully."
+    "text": "Sometimes, it's strategy."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "Someone who knows sign language, but can also bridge the gap of translation in a charming "
+    "text": "And sometimes, it's survival."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "You are an unknowable force, yes—"
+  },
+  "7": {
+    "speaker": "Narrator",
+    "text": "But even unknowable forces can choose discretion."
   },
   "F": {
     "speaker": "Narrator",
-    "text": "Which Interpreter will you choose?",
+    "text": "What will you do?",
     "options": [
-    { "route": "B7B", "text": "Run out of your office" },
-    { "route": "B8B", "text": "Wait what was option one?" }
-  ]
+      { "route": "B7B", "text": "Run out of your office" },
+      { "route": "B8B", "text": "Wait what was option one?" }
+    ]
   }
 },
+
+
 
 "B7B": {
   "bgm": "TaxTheme.mp3",
@@ -1005,134 +2411,147 @@
   },
   "2": {
     "speaker": "Narrator",
-    "text": "Narrowly avoiding a gunshot"
+    "text": "You narrowly avoid a gunshot."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "You close the door behind you and knock over a bookshelf sealing the would be assailant inside. "
+    "text": "You slam the door shut and knock over a bookshelf, sealing the would-be assailant inside."
   },
   "4": {
     "speaker": "Narrator",
-    "text": " Sprinting you find Maggie and the two of you contact the police. "
+    "text": "Sprinting through the halls, you find Maggie and contact the police together."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "They find no-one present in your office by the time they get there. "
+    "text": "By the time they arrive, your office is empty."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "Lacking funding for a proper investigation they assign an officer outside of your building for security. "
+    "text": "Lacking funding for a full investigation, they assign a single officer to guard your building."
   },
   "7": {
     "speaker": "Narrator",
-    "text": "Debate night comes along, but by then word has gotten out that you fled from your assailant. "
+    "text": "Debate night arrives."
   },
   "8": {
     "speaker": "Narrator",
-    "text": "Mayor Denton paints you as weak, and Maggie's interpretations flare up as she chooses to defend you. "
+    "text": "Word has spread that you fled from your attacker."
   },
   "9": {
     "speaker": "Narrator",
-    "text": "Unfortunately the crowd begins to turn on you. "
+    "text": "Mayor Denton calls you weak."
   },
   "10": {
     "speaker": "Narrator",
-    "text": "Your inability to speak, or stand up to your would be assassin are clear signs that you lack the conviction necessary to carry out your policy. "
+    "text": "Maggie defends you, but her passion only fuels the flames."
   },
   "11": {
     "speaker": "Narrator",
-    "text": "Your body is found weeks later. "
+    "text": "The crowd turns."
   },
   "12": {
     "speaker": "Narrator",
-    "text": "Hanging from a ceiling fan. "
+    "text": "Your silence, and your retreat, are seen as proof that you lack the strength to lead."
   },
   "13": {
     "speaker": "Narrator",
-    "text": "Maggie swears you weren't suicidal but that's the most anyone's willing to give to your case."
+    "text": "Weeks later, your body is found hanging from a ceiling fan."
   },
   "14": {
     "speaker": "Narrator",
-    "text": "She ends up hiring a detective actually. "
+    "text": "Maggie insists you weren’t suicidal."
   },
   "15": {
     "speaker": "Narrator",
-    "text": "Nick Fluoride. "
+    "text": "No one listens."
   },
   "16": {
     "speaker": "Narrator",
-    "text": "But that’s a mystery for him to solve, you need not concern yourself about it anymore."
+    "text": "Still, she hires a private investigator to dig deeper."
   },
-  "F": {
+  "17": {
     "speaker": "Narrator",
-    "text": "Which Policy will you choose?",
+    "text": "His name is Nick Fluoride."
+  },
+  "18": {
+    "speaker": "Narrator",
+    "text": "But that mystery isn’t yours to solve."
+  },
+"F": {
+    "speaker": "Narrator",
+    "text": "Starting your journey over, which policy will you push forward?",
     "options": [
-    { "route": "A1", "text": "War on Clove" },
-    { "route": "B1", "text": "Tax the Wealthy" }
-  ]
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
   }
 },
+
+
 
 "B8B": {
   "bgm": "Captain Scurvy",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You could shout at the assailant"
+    "text": "You freeze."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "Let's face it, you're an extra dimensional being who's regular "
+    "text": "For a moment, time seems to hang in the air like breath in winter."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "speaking voice leads to madness in the most fortunate of listeners."
+    "text": "You wonder, can silence save you?"
   },
   "4": {
     "speaker": "Narrator",
-    "text": " If you're going to communicate effectively you need to pick your interpreter carefully."
+    "text": "You wonder, can noise?"
   },
   "5": {
     "speaker": "Narrator",
-    "text": "Someone who knows sign language, but can also bridge the gap of translation in a charming "
+    "text": "There's something rising in your chest. Words that were never meant to be heard."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "Maybe it's time to use your voice."
   },
   "F": {
     "speaker": "Narrator",
-    "text": "Which Interpreter will you choose?",
+    "text": "What will you do?",
     "options": [
-    { "route": "B3B", "text": "Shout at the assailant" },
-    { "route": "B4B", "text": "Surely, there's something else?" }
-  ]
+      { "route": "B3B", "text": "Shout at the assailant" },
+      { "route": "B4B", "text": "Surely, there's something else?" }
+    ]
   }
 },
-
 
 "B9B": {
   "bgm": "mystery",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "The night before the debate a letter comes in."
+    "text": "The night before the debate, a letter arrives."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "Maggie has been fidgety all week after the incident. "
+    "text": "Maggie has been fidgety all week after the incident."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "Apparently the assassin was hired by the leader of the local mafia."
+    "text": "Apparently, the assassin was hired by the leader of the local mafia."
   },
   "4": {
     "speaker": "Narrator",
-    "text": " King, King Pin. King offers you a deal. "
+    "text": "King. King Pin."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "They won't harm Maggie, and they won't try to kill you again,"
+    "text": "King offers you a deal."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "They won’t harm Maggie, and they won’t try to kill you again—"
   },
   "7": {
     "speaker": "Narrator",
@@ -1140,195 +2559,263 @@
   },
   "8": {
     "speaker": "Narrator",
-    "text": "King will even personally finance the rest of your campaign. "
+    "text": "King will even personally finance the rest of your campaign."
   },
   "9": {
     "speaker": "Narrator",
-    "text": "However you will be required to enact policy according to his interests."
+    "text": "But in exchange, you must enact policies that serve his interests."
   },
   "10": {
     "speaker": "Narrator",
-    "text": "Unfortunately it's too much pressure. "
+    "text": "It’s too much pressure."
   },
   "11": {
     "speaker": "Narrator",
-    "text": "  You've seen Maggie's hands tremble all week. "
+    "text": "You’ve seen Maggie’s hands tremble all week."
   },
-
   "12": {
     "speaker": "Narrator",
-    "text": "You can't keep putting her through this. She'll be safe, and at the minimum Denton will no longer be Mayor. "
+    "text": "You can’t keep putting her through this."
   },
   "13": {
     "speaker": "Narrator",
-    "text": "You write back agreeing to take the offer."
+    "text": "She’ll be safe. And at the very least, Denton will be gone."
   },
   "14": {
     "speaker": "Narrator",
-    "text": "The debate was lukewarm but it doesn't matter. "
+    "text": "You write back agreeing to take the offer."
   },
-
   "15": {
     "speaker": "Narrator",
-    "text": "With King's financial backing you win the election no problem. "
+    "text": "The debate is lukewarm, but it doesn’t matter."
   },
   "16": {
     "speaker": "Narrator",
-    "text": "Maggie and you have a falling out however."
+    "text": "With King’s backing, you win the election easily."
   },
   "17": {
     "speaker": "Narrator",
-    "text": "She can't understand why you would turn your back on your campaign promises and you're not allowed to tell her it was for her own good."
+    "text": "But Maggie and you have a falling out."
   },
   "18": {
     "speaker": "Narrator",
-    "text": "She runs a campaign against you when it comes time for re-election. "
+    "text": "She can’t understand why you betrayed your promises."
   },
   "19": {
     "speaker": "Narrator",
-    "text": "She evicerates you in the debates and the crowd sees what type of person you really are. "
+    "text": "You’re not allowed to tell her it was to protect her."
   },
   "20": {
     "speaker": "Narrator",
-    "text": "Unfortunately Maggie suffers an accident as the polls start to open."
+    "text": "When it’s time for re-election, she runs against you."
   },
   "21": {
     "speaker": "Narrator",
-    "text": "You read about her obituary in the newspaper, no one has any answers to what happened."
+    "text": "She eviscerates you in the debates."
   },
   "22": {
     "speaker": "Narrator",
-    "text": "Running unopposed you win re-election, but the difficulties Gumtham City faces continue to go unaddressed. "
+    "text": "The crowd sees what kind of person you really are."
   },
   "23": {
     "speaker": "Narrator",
-    "text": "Why'd you even run to begin with?"
+    "text": "Then, just as the polls open, Maggie has an accident."
   },
-  "F": {
+  "24": {
     "speaker": "Narrator",
-    "text": "Which Interpreter will you choose?",
+    "text": "You read her obituary in the paper."
+  },
+  "25": {
+    "speaker": "Narrator",
+    "text": "No one has answers."
+  },
+  "26": {
+    "speaker": "Narrator",
+    "text": "Running unopposed, you win re-election."
+  },
+  "27": {
+    "speaker": "Narrator",
+    "text": "But Gumtham’s problems remain unsolved."
+  },
+  "28": {
+    "speaker": "Narrator",
+    "text": "Why did you even run to begin with?"
+  },
+"F": {
+    "speaker": "Narrator",
+    "text": "Starting your journey over, which policy will you push forward?",
     "options": [
-    { "route": "A1", "text": "War on Clove" },
-    { "route": "B1", "text": "Tax the Wealthy" }
-  ]
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
   }
 },
+
 
 "B10B": {
   "bgm": "Danse Macabre",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You place your campaign planning on hold temporarily."
+    "text": "You place your campaign planning on hold—temporarily."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "If someone's going to attempt to kill you in Gumtham City there's really only one way to make sure they don't try again. "
+    "text": "If someone tried to kill you in Gumtham, there’s only one way to ensure they never try again."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "You start searching, trying to figure out who King is. "
+    "text": "You begin searching, trying to find out who King really is."
   },
   "4": {
     "speaker": "Narrator",
-    "text": " It takes a long time but eventually you receive an invitation. "
+    "text": "It takes time."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "It's to the penthouse suite of a local hotel. "
+    "text": "Eventually, an invitation arrives."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "King knows you've been asking about him and wants to meet to discuss terms."
+    "text": "It’s for the penthouse suite of a local hotel."
   },
   "7": {
     "speaker": "Narrator",
-    "text": "King is a bottle of mouthwash, wearing a suit and a crown."
+    "text": "King knows you've been asking questions."
   },
   "8": {
     "speaker": "Narrator",
-    "text": "He carries himself with a stable confidence that tells you he already knows what choice you're going to make."
+    "text": "He wants to meet. To discuss terms."
   },
   "9": {
     "speaker": "Narrator",
-    "text": "He wants you to drop out, and in return he won't harm you or Maggie. "
+    "text": "King is a bottle of mouthwash in a tailored suit and golden crown."
   },
   "10": {
     "speaker": "Narrator",
-    "text": "He turns around to stare at the city, "
+    "text": "He exudes calm, unbothered confidence."
   },
   "11": {
     "speaker": "Narrator",
-    "text": "HIS city, while you weigh your options."
+    "text": "The kind that says he already knows your answer."
+  },
+  "12": {
+    "speaker": "Narrator",
+    "text": "He wants you to drop out of the race."
+  },
+  "13": {
+    "speaker": "Narrator",
+    "text": "In exchange, he promises you and Maggie will remain unharmed."
+  },
+  "14": {
+    "speaker": "Narrator",
+    "text": "He turns toward the window."
+  },
+  "15": {
+    "speaker": "Narrator",
+    "text": "Staring down at the lights below."
+  },
+  "16": {
+    "speaker": "Narrator",
+    "text": "His city."
+  },
+  "17": {
+    "speaker": "Narrator",
+    "text": "And waits for your reply."
   },
   "F": {
     "speaker": "Narrator",
-    "text": "Which Interpreter will you choose?",
+    "text": "What will you do?",
     "options": [
-    { "route": "B11B", "text": "Reluctantly accept" },
-    { "route": "B12B", "text": "Whip out the Nine" }
-  ]
+      { "route": "B11B", "text": "Reluctantly accept" },
+      { "route": "B12B", "text": "Whip out the Nine" }
+    ]
   }
 },
+
 
 "B11B": {
   "bgm": "SCP7",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You consider shooting King where he stands. "
+    "text": "You consider shooting King where he stands."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "The silence in the room growing louder. "
+    "text": "The silence in the room grows louder."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "You can't do it. "
+    "text": "But you can’t do it."
   },
   "4": {
     "speaker": "Narrator",
-    "text": " You decided to run in order to fix the corruption in this city. "
+    "text": "You ran to fix the corruption in this city."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "If you claimed power in the same way as King has you wouldn't be any different. "
+    "text": "If you seized power like King, you’d be no different."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "You accept King's terms and announce the end of your campaign the next morning. "
+    "text": "You accept his terms and end your campaign the next morning."
   },
   "7": {
     "speaker": "Narrator",
-    "text": "Maggie refuses to talk to you. Unable to explain yourself you return the same solitude you started in. "
+    "text": "Maggie won’t speak to you."
   },
   "8": {
     "speaker": "Narrator",
-    "text": "Denton wins and his policy enables the local Mines to start hiring Child Labor. "
+    "text": "You can’t explain yourself."
   },
   "9": {
     "speaker": "Narrator",
-    "text": "You watch from the sidelines as Maggie struggles with her Grassroot campaigns and activism in a desperate attempt to create something resembling justice. "
+    "text": "You return to the same solitude you started in."
   },
   "10": {
     "speaker": "Narrator",
-    "text": "Eventually it hurts to watch and you cut yourself off from the outside world all together. What's the point of even trying anymore?"
+    "text": "Denton wins."
   },
   "11": {
     "speaker": "Narrator",
-    "text": "The city grows more drab, and hopeless. And you feel your soul grow to reflect that. "
+    "text": "His policies allow local mines to begin hiring child labor."
   },
   "12": {
     "speaker": "Narrator",
-    "text": "The city grows more drab, and hopeless. And you feel your soul grow to reflect that. "
+    "text": "You watch from the sidelines as Maggie fights with grassroots campaigns."
   },
-  "F": {
+  "13": {
     "speaker": "Narrator",
-    "text": "Which Interpreter will you choose?",
+    "text": "She pushes for justice with everything she has."
+  },
+  "14": {
+    "speaker": "Narrator",
+    "text": "Eventually, it hurts too much to watch."
+  },
+  "15": {
+    "speaker": "Narrator",
+    "text": "You cut yourself off from the world."
+  },
+  "16": {
+    "speaker": "Narrator",
+    "text": "What’s the point of trying anymore?"
+  },
+  "17": {
+    "speaker": "Narrator",
+    "text": "The city grows more drab, more hopeless."
+  },
+  "18": {
+    "speaker": "Narrator",
+    "text": "And your soul grows to reflect that."
+  },
+"F": {
+    "speaker": "Narrator",
+    "text": "Starting your journey over, which policy will you push forward?",
     "options": [
-    { "route": "A1", "text": "War on Clove" },
-    { "route": "B1", "text": "Tax the Wealthy" }
-  ]
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
   }
 },
 
@@ -1417,60 +2904,87 @@
   },
   "F": {
     "speaker": "Narrator",
-    "text": "Which Interpreter will you choose?",
+    "text": "Starting your journey over, which policy will you push forward?",
     "options": [
-    { "route": "B11B", "text": "Reluctantly accept" },
-    { "route": "B12B", "text": "Whip out the Nine" }
-  ]
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
   }
 },
 
 "B2C": {
-  "bgm": "TaxTheme.mp3",
+  "bgm": "Shiny Tech",
   "background": "tax_background.jpg",
   "1": {
     "speaker": "Narrator",
-    "text": "You have  chosen Dr. Mimi Strings"
+    "text": "You have chosen Dr. Mimi Strings."
   },
   "2": {
     "speaker": "Narrator",
-    "text": "Let's face it, you're an extra dimensional being who's regular "
+    "text": "Thank you for showing interest in the most rigorous—and possibly enlightening—route in Eldritch Elections."
   },
   "3": {
     "speaker": "Narrator",
-    "text": "speaking voice leads to madness in the most fortunate of listeners."
+    "text": "Dr. Strings is a pioneer in accessible communication, historical advocacy, and respecting the integrity of interpretation."
   },
   "4": {
     "speaker": "Narrator",
-    "text": " If you're going to communicate effectively you need to pick your interpreter carefully."
+    "text": "Her route will explore the real history of sign language, the systemic challenges faced by interpreters, and what it means to truly represent someone else’s voice."
   },
   "5": {
     "speaker": "Narrator",
-    "text": "Someone who knows sign language, but can also bridge the gap of translation in a charming "
+    "text": "In the next update, you’ll accompany Dr. Strings and the candidate through policy, philosophy, and protest—with no shortcuts."
   },
   "6": {
     "speaker": "Narrator",
-    "text": "and charismatic while maintaining the integrity of your platform."
+    "text": "Until then, your voice still deserves to be heard."
   },
   "F": {
     "speaker": "Narrator",
-    "text": "Which Interpreter will you choose?",
+    "text": "Please choose an available interpreter:",
     "options": [
-    { "route": "A1", "text": "War on Clove" },
-    { "route": "B1", "text": "Tax the Wealthy" }
-  ]
+      { "route": "B2A", "text": "Eugene Edwards" },
+      { "route": "B2B", "text": "Maggie Wood" }
+    ]
+  }
+},
+
+"S1A": {
+  "bgm": "SCP7",
+  "background": "sewerbloom_chamber.jpg",
+  "1": {
+    "speaker": "Narrator",
+    "text": "You have stumbled into something ancient—something buried beneath platform and policy."
+  },
+  "2": {
+    "speaker": "Narrator",
+    "text": "Very few find this place. Fewer still understand what they’ve uncovered."
+  },
+  "3": {
+    "speaker": "Narrator",
+    "text": "This is where deals are struck beneath city stone. Where history folds. Where time forgets to behave."
+  },
+  "4": {
+    "speaker": "Narrator",
+    "text": "You’ve accessed a hidden route of Eldritch Elections. One reserved for those willing to peer past politics."
+  },
+  "5": {
+    "speaker": "Narrator",
+    "text": "There is much more to tell here… but not yet."
+  },
+  "6": {
+    "speaker": "Narrator",
+    "text": "For now, your path resumes."
+  },
+  "F": {
+    "speaker": "Narrator",
+    "text": "Starting your journey over, which policy will you push forward?",
+    "options": [
+      { "route": "A1", "text": "War on Clove" },
+      { "route": "B1", "text": "Tax the Wealthy" }
+    ]
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
