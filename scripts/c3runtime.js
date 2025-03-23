@@ -1406,6 +1406,7 @@ self.C3_ExpressionFuncs = [
 			const n0 = p._GetNode(0);
 			return () => n0.ExpObject();
 		},
+		() => 1,
 		() => "GlowHorizontal",
 		() => "GlowVertical"
 ];

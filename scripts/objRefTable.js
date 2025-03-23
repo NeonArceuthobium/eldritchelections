@@ -23,6 +23,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Browser.Acts.ConsoleLog,
 		C3.Plugins.Json.Exps.ToBeautifiedString,
 		C3.Plugins.Mouse.Cnds.OnObjectClicked,
+		C3.Plugins.System.Cnds.CompareVar,
 		C3.ScriptsInEvents.Main_Event3_Act1,
 		C3.ScriptsInEvents.Main_Event4_Act1,
 		C3.Plugins.Audio.Acts.StopAll,
@@ -53,6 +54,7 @@ self.C3_JsPropNameTable = [
 	{Sprite: 0},
 	{Sprite2: 0},
 	{CurrentDialogue: 0},
+	{AllowChoiceClick: 0},
 	{BGMName: 0},
 	{CurrentDialogueIndex: 0}
 ];

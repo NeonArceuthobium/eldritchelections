@@ -274,24 +274,36 @@ window.showChoices = function(optionsArray) {
     window.isChoiceActive = true;
     let rt = getRuntime();
     if (!rt) return;
+
     rt.globalVars.CurrentOptions = optionsArray;
+    rt.globalVars.AllowChoiceClick = 1; // ✅ ENABLE CHOICE INPUT
     console.log("📌 Showing choices:", optionsArray);
+
     let choicetext1 = rt.objects.RedChoiceText.getFirstInstance();
     let choicetext2 = rt.objects.BlueChoiceText.getFirstInstance();
     let button1 = rt.objects.ChoiceButton1.getFirstInstance();
     let button2 = rt.objects.ChoiceButton2.getFirstInstance();
+
     if (!button1 || !button2) {
         console.error("❌ ChoiceButton1 or ChoiceButton2 not found.");
         return;
     }
+
+    // Set text
     choicetext1.text = optionsArray[0].text;
     choicetext2.text = optionsArray[1].text;
+
+    // Make visible
     choicetext1.isVisible = true;
     choicetext2.isVisible = true;
     button1.isVisible = true;
     button2.isVisible = true;
+
+    // Assign choice indices
     button1.choiceIndex = 0;
     button2.choiceIndex = 1;
+
+    // Attach click listeners (DOM only; sprites handled in event sheet)
     window.attachChoiceListeners();
 };
 
@@ -301,27 +313,36 @@ window.showChoices = function(optionsArray) {
 window.selectChoice = function(choiceIndex) {
     let rt = getRuntime();
     if (!rt) return;
+
+    rt.globalVars.AllowChoiceClick = 0; // ✅ DISABLE CHOICE INPUT
+
     if (!rt.globalVars.CurrentOptions) {
         console.error("❌ CurrentOptions is undefined.");
         return;
     }
+
     let choice = rt.globalVars.CurrentOptions[choiceIndex];
     if (!choice) {
         console.error("❌ No choice found at index:", choiceIndex);
         return;
     }
+
     console.log("🎯 Player chose:", choice.text, "| route:", choice.route);
+
     let button1 = rt.objects.ChoiceButton1.getFirstInstance();
     let button2 = rt.objects.ChoiceButton2.getFirstInstance();
     let choicetext1 = rt.objects.RedChoiceText.getFirstInstance();
     let choicetext2 = rt.objects.BlueChoiceText.getFirstInstance();
+
     if (choicetext1) choicetext1.isVisible = false;
     if (choicetext2) choicetext2.isVisible = false;
     if (button1) button1.isVisible = false;
     if (button2) button2.isVisible = false;
+
     rt.globalVars.CurrentDialogue = choice.route;
     rt.globalVars.CurrentIndex = "1";
     window.isChoiceActive = false;
+
     // === Handle background & BGM transition ===
     window.handleSceneTransition(choice.route);
     window.showDialogue();
@@ -333,47 +354,69 @@ window.selectChoice = function(choiceIndex) {
 window.hideChoiceButtons = function() {
     let rt = getRuntime();
     if (!rt) return;
+
+    rt.globalVars.AllowChoiceClick = 0; // ✅ DISABLE CHOICE INPUT
+
     let button1 = rt.objects.ChoiceButton1.getFirstInstance();
     let button2 = rt.objects.ChoiceButton2.getFirstInstance();
     let choicetext1 = rt.objects.RedChoiceText.getFirstInstance();
     let choicetext2 = rt.objects.BlueChoiceText.getFirstInstance();
+
     if (choicetext1) choicetext1.isVisible = false;
     if (choicetext2) choicetext2.isVisible = false;
+
     if (button1) button1.isVisible = false;
     if (button2) button2.isVisible = false;
 };
 
 // ------------------------------------------------------------------------------------------------
-// 14) ADD SPRITE HITBOX CLICK HANDLERS
+// 14) ADD SPRITE HITBOX CLICK HANDLERS (DOM fallback)
 // ------------------------------------------------------------------------------------------------
 window.attachChoiceListeners = function() {
     let rt = getRuntime();
     if (!rt) return;
+
     let button1 = rt.objects.ChoiceButton1.getFirstInstance();
     let button2 = rt.objects.ChoiceButton2.getFirstInstance();
+
     if (!button1 || !button2) {
         console.error("❌ Cannot attach listeners — choice buttons not found.");
         return;
     }
-    // Remove previous listeners to avoid stacking (if applicable)
+
+    // Remove previous DOM listeners to avoid stacking
     if (button1.domElement) button1.domElement.removeEventListener("click", button1._choiceClick);
     if (button2.domElement) button2.domElement.removeEventListener("click", button2._choiceClick);
-    // Define handlers for sprite hitboxes (Note: For sprites, use Construct's Mouse events instead)
-    button1._choiceClick = () => window.selectChoice(button1.choiceIndex);
-    button2._choiceClick = () => window.selectChoice(button2.choiceIndex);
-    // If using DOM wrappers (if applicable)
-    if (button1.instVars && button1.instVars.__dom && button1.instVars.__dom.element) {
+
+    // Define new click handlers
+    button1._choiceClick = () => {
+        if (rt.globalVars.AllowChoiceClick === 1) {
+            window.selectChoice(button1.choiceIndex);
+        }
+    };
+
+    button2._choiceClick = () => {
+        if (rt.globalVars.AllowChoiceClick === 1) {
+            window.selectChoice(button2.choiceIndex);
+        }
+    };
+
+    // Attach listeners (DOM fallback only; Construct handles sprite clicks)
+    if (button1.instVars?.__dom?.element) {
         button1.instVars.__dom.element.addEventListener("click", button1._choiceClick);
     } else if (button1.domElement) {
         button1.domElement.addEventListener("click", button1._choiceClick);
     }
-    if (button2.instVars && button2.instVars.__dom && button2.instVars.__dom.element) {
+
+    if (button2.instVars?.__dom?.element) {
         button2.instVars.__dom.element.addEventListener("click", button2._choiceClick);
     } else if (button2.domElement) {
         button2.domElement.addEventListener("click", button2._choiceClick);
     }
-    console.log("🖲️ Choice listeners attached to sprite hitboxes.");
+
+    console.log("🖲️ Choice listeners attached to sprite hitboxes (if DOM present).");
 };
+
 
 // ------------------------------------------------------------------------------------------------
 // Scene Transition Functions
